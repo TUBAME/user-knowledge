@@ -5,4 +5,4 @@ What's Repository
 
 How do I push it?
 ==============
-詳しくはこの[wiki](http://tubame.github.io/user-knowledge/post_knowledge.html)ページをご覧ください。
+詳しくはこちらの[wiki](http://tubame.github.io/user-knowledge/post_knowledge.html)ページをご覧ください。
