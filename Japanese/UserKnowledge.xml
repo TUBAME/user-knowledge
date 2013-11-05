@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
+    <PortabilityKnowhowTitle>user-knowledge</PortabilityKnowhowTitle>
+    <EntryViewList>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_5</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_6</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_7</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_8</EntryCategoryRefKey>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_10</EntryCategoryRefKey>
+                    </ChildEntry>
+                </ChildEntry>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_11</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_24</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_25</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_26</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
+        </EntryCategory>
+    </EntryViewList>
+    <ChapterList>
+        <Chapter>
+            <ChapterNo>1.</ChapterNo>
+            <ChapterName>サンプルナレッジ</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>1.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_6</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>1.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_7</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>1.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_8</ChapterCategoryRefKey>
+                    <ChildChapter>
+                        <ChildCapterNo>1.1.2.1.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
+                    </ChildChapter>
+                </ChildChapter>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>2.</ChapterNo>
+            <ChapterName>検索情報の設定方法について</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>2.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_24</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_25</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_26</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+        </Chapter>
+    </ChapterList>
+    <CategoryList>
+        <Category categoryId="category_5" appropriate="true">
+            <CategoryName>ユーザナレッジサンプル</CategoryName>
+        </Category>
+        <Category categoryId="category_6" appropriate="false">
+            <CategoryName>JSPのプレコンパイルについて</CategoryName>
+        </Category>
+        <Category categoryId="category_7" appropriate="true">
+            <CategoryName>環境</CategoryName>
+            <KnowhowRefKey>knowhow_4</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_8" appropriate="true">
+            <CategoryName>マイグレーションナレッジ</CategoryName>
+        </Category>
+        <Category categoryId="category_10" appropriate="true">
+            <CategoryName>JSP</CategoryName>
+            <KnowhowRefKey>knowhow_6</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_11" appropriate="true">
+            <CategoryName>検索条件(チェックアイテム)の作成方法</CategoryName>
+            <KnowhowRefKey>knowhow_9</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_24" appropriate="true">
+            <CategoryName>JAVAファイル検索</CategoryName>
+            <KnowhowRefKey>knowhow_10</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_25" appropriate="true">
+            <CategoryName>JSPファイル検索</CategoryName>
+            <KnowhowRefKey>knowhow_11</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_26" appropriate="true">
+            <CategoryName>XMLファイル検索</CategoryName>
+            <KnowhowRefKey>knowhow_12</KnowhowRefKey>
+        </Category>
+    </CategoryList>
+    <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_4" knowhowDetailRefKey="knowhowDetail_4">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>environment</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_6" knowhowDetailRefKey="knowhowDetail_6">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>JSPのプレコンパイルについて</KnowhowName>
+            <CheckItem checkItemId="checkItem_2" searchRefKey="searchInfo_2" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>JSP検索</CheckItemName>
+                <SearchProcess>weblogic.xmlにprecompile属性がtrueであるか検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>NOT_TRN</PortabilityDegree>
+                <DegreeDetail>移植不可</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm>JBossではJSPのプレコンパイルの実施できないため、&#xD;
+システム要件的に問題とならないか確認を行う。</HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_9" knowhowDetailRefKey="knowhowDetail_9">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_10" knowhowDetailRefKey="knowhowDetail_10">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+            <CheckItem checkItemId="checkItem_3" searchRefKey="searchInfo_3" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>JAVAファイル検索1</CheckItemName>
+                <SearchProcess>javaファイルを対象に&#xD;
+weblogic.utils.FileUtilsの利用箇所を検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm>検索結果のクラスがWebLogicのFileUtilsであることを確認する。</VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+            <CheckItem checkItemId="checkItem_4" searchRefKey="searchInfo_4" searchExistance="true">
+                <CheckItemNo>2</CheckItemNo>
+                <CheckItemName>JAVAファイル検索2</CheckItemName>
+                <SearchProcess>javaファイルを対象に&#xD;
+weblogic.utils.FileUtilsの利用箇所を検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm>検索結果のクラスがWebLogicのFileUtilsであることを確認する。</VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_11" knowhowDetailRefKey="knowhowDetail_11">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+            <CheckItem checkItemId="checkItem_5" searchRefKey="searchInfo_5" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>JSPファイル検索1</CheckItemName>
+                <SearchProcess>jspファイルを対象に&#xD;
+wl:cacheの利用箇所を検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低2</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_12" knowhowDetailRefKey="knowhowDetail_12">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+            <CheckItem checkItemId="checkItem_6" searchRefKey="searchInfo_6" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>XMLファイル検索1</CheckItemName>
+                <SearchProcess>XMLファイルを対象に&#xD;
+print-nullsの利用箇所を検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+            <CheckItem checkItemId="checkItem_7" searchRefKey="searchInfo_7" searchExistance="true">
+                <CheckItemNo>2</CheckItemNo>
+                <CheckItemName>XMLファイル検索2(XPATH検索)</CheckItemName>
+                <SearchProcess>XMLファイルを対象に&#xD;
+print-nullsの利用箇所を検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+            <CheckItem checkItemId="checkItem_8" searchRefKey="searchInfo_8" searchExistance="true">
+                <CheckItemNo>3</CheckItemNo>
+                <CheckItemName>XMLファイル検索3(XPATH検索)</CheckItemName>
+                <SearchProcess>XMLファイルを対象に&#xD;
+print-nullsの利用箇所を検索する</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+    </KnowhowList>
+    <DocBookList>
+        <DocBook articleId="knowhowDetail_4">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>environment</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:table>
+<ns2:title>環境</ns2:title>
+<ns2:tgroup cols="4">
+    <ns2:thead>
+        <ns2:row>
+            <ns2:entry/>
+            <ns2:entry>OS</ns2:entry>
+            <ns2:entry>JAVA </ns2:entry>
+            <ns2:entry>AP Server</ns2:entry>
+        </ns2:row>
+    </ns2:thead>
+    <ns2:tbody>
+        <ns2:row>
+            <ns2:entry>移行前の環境</ns2:entry>
+            <ns2:entry>Solaris9</ns2:entry>
+            <ns2:entry>JRockit</ns2:entry>
+            <ns2:entry>WebLogic9</ns2:entry>
+        </ns2:row>
+        <ns2:row>
+            <ns2:entry>移行後の環境</ns2:entry>
+            <ns2:entry>RHEL6.4</ns2:entry>
+            <ns2:entry>Open JDK</ns2:entry>
+            <ns2:entry>JBoss EAP6</ns2:entry>
+        </ns2:row>
+    </ns2:tbody>
+</ns2:tgroup>
+                            </ns2:table>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_6">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>Porting knowledge</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			WebLogicでは、WebLogicではweblogic.xmlのjsp-descriptorより可能で、JSPに関連する項目として、precompile属性が存在する。
+		</ns2:para>
+                    <ns2:para>
+			JBossEAP6では、デプロイ時にすべてのJSPを自動でプリコンパイルする機能はJBossに存在しない。
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_9">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			TUBAMEの汎用検索はアナライザを利用して動的解析を行うのに対して、TUBAMEのナレッジベース検索はすべてテキストデータとして検索を行います。ナレッジ管理ツールで検索条件として指定できる主要な要素は以下になります。
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>検索対象ファイル</ns2:para>
+<ns2:para>検索対象ファイルを指定する。</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>検索キーワード</ns2:para>
+<ns2:para>
+						パラメータは２つ存在します。キー1とキー2が指定できます。
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>検索キーワード1</ns2:para>
+            <ns2:para>検索キーワード1のみ指定された場合は、そのキーが存在する行を出力します。</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>検索キーワード2</ns2:para>
+            <ns2:para>検索キーワード1かつ検索キーワード2が指定された場合は、キー1にマッチしたファイルに対して、さらにキー2で検索し、キー2にマッチした行を出力します。
+								</ns2:para>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>検索モジュールファイル</ns2:para>
+<ns2:para>XMLファイルでXPATH検索を行う場合のみ指定する。</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+			<ns2:figure>
+                            <ns2:title>ナレッジ管理ツールの検索条件(CheckItem)の設定画面</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="images/checkitem-setting.jpg" width="600"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+
+			以下に検索条件として、よく検索を行う以下の３つの種別(JAVA/XML/JSP)について検索条件の指定方法について示す。
+			<ns2:note>
+                            <ns2:para>このサンプルナレッジで実際に以下の３つの種別について検索条件（チェックアイテム）を設定していますので、そちらも合わせてご確認ください。
+				</ns2:para>
+                        </ns2:note>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_10">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>JAVAファイルの検索例として、weblogic.utils.FileUtilsを利用しているクラスを検索する。</ns2:para>
+                    <ns2:table>
+                        <ns2:title>JAVAファイルの検索例
+			</ns2:title>
+                        <ns2:tgroup cols="4">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>検索対象ファイル</ns2:entry>
+    <ns2:entry>検索キーワード1</ns2:entry>
+    <ns2:entry>検索キーワード2</ns2:entry>
+    <ns2:entry>検索モジュール</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>*.java</ns2:entry>
+    <ns2:entry>weblogic\.utils\.FileUtils</ns2:entry>
+    <ns2:entry>FileUtils</ns2:entry>
+    <ns2:entry/>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                    <ns2:note>
+                        <ns2:para>FileUtilsのようなほかのライブラリでも利用される汎用的なクラス名の場合は、目視確認項目として、   目視確認項目を入力してください。</ns2:para>
+                    </ns2:note>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_11">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>JSPファイルの検索例として、JSPファイルで独自のタグ(wl:cache)を利用しているか検索する。</ns2:para>
+                    <ns2:table>
+                        <ns2:title>JSPファイルの検索例
+			</ns2:title>
+                        <ns2:tgroup cols="4">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>検索対象ファイル</ns2:entry>
+    <ns2:entry>検索キーワード1</ns2:entry>
+    <ns2:entry>検索キーワード2</ns2:entry>
+    <ns2:entry>検索モジュール</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>*.jsp</ns2:entry>
+    <ns2:entry>wl:cache</ns2:entry>
+    <ns2:entry/>
+    <ns2:entry/>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_12">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			XMLファイルの検索例として、weblogic.xmlでprint-nullsタグが利用されているかを検索する。
+			<ns2:table>
+                            <ns2:title>XMLファイルの検索例
+				</ns2:title>
+                            <ns2:tgroup cols="4">
+<ns2:thead>
+    <ns2:row>
+        <ns2:entry>検索対象ファイル</ns2:entry>
+        <ns2:entry>検索キーワード1</ns2:entry>
+        <ns2:entry>検索キーワード2</ns2:entry>
+        <ns2:entry>検索モジュール</ns2:entry>
+        <ns2:entry>備考</ns2:entry>
+    </ns2:row>
+</ns2:thead>
+<ns2:tbody>
+    <ns2:row>
+        <ns2:entry>weblogic.xml</ns2:entry>
+        <ns2:entry>print-nulls</ns2:entry>
+        <ns2:entry/>
+        <ns2:entry/>
+        <ns2:entry>TEXT検索</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>weblogic.xml</ns2:entry>
+        <ns2:entry>//jsp-descriptor/print-nulls</ns2:entry>
+        <ns2:entry/>
+        <ns2:entry>ext_search_xpath</ns2:entry>
+        <ns2:entry>XPATH検索</ns2:entry>
+    </ns2:row>
+</ns2:tbody>
+                            </ns2:tgroup>
+                        </ns2:table>
+		</ns2:para>
+                    <ns2:para>XPATH検索の際、検索対象のXMLでネームスペースを検索している場合は、以下のように検索条件を設定してください。</ns2:para>
+                    <ns2:table>
+                        <ns2:title>検索対象ファイルのXMLがネームスペースを利用している場合の検索例
+				</ns2:title>
+                        <ns2:tgroup cols="4">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>検索対象ファイル</ns2:entry>
+    <ns2:entry>検索キーワード1</ns2:entry>
+    <ns2:entry>検索キーワード2</ns2:entry>
+    <ns2:entry>検索モジュール</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>weblogic.xml</ns2:entry>
+    <ns2:entry>//*[local-name()='jsp-descriptor']/*[local-name()='print-nulls']
+							</ns2:entry>
+    <ns2:entry/>
+    <ns2:entry>ext_search_xpath</ns2:entry>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+    </DocBookList>
+    <SearchInfomationList>
+        <SearchInfomation searchInfoId="searchInfo_2">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>//*[local-name()='precompile'][text()=&quot;true&quot;]</SearchKey1>
+            <SearchKey2></SearchKey2>
+            <PythonModule>ext_search_xml_xpath.py</PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_3">
+            <FileType>*.java</FileType>
+            <SearchKey1>weblogic\.utils\.FileUtils</SearchKey1>
+            <SearchKey2>FileUtils</SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_4">
+            <FileType>*.java</FileType>
+            <SearchKey1>weblogic\.utils\.\*</SearchKey1>
+            <SearchKey2>FileUtils</SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_5">
+            <FileType>*.jsp</FileType>
+            <SearchKey1>wl:cache</SearchKey1>
+            <SearchKey2></SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_6">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>printnull</SearchKey1>
+            <SearchKey2></SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_7">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>printnull</SearchKey1>
+            <SearchKey2>//jsp-descriptor/print-nulls</SearchKey2>
+            <PythonModule>ext_search_xml_xpath.py</PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_8">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>printnull</SearchKey1>
+            <SearchKey2>//*[local-name()='jsp-descriptor']/*[local-name()='print-nulls']</SearchKey2>
+            <PythonModule>ext_search_xml_xpath.py</PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>0</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+    </SearchInfomationList>
+</PortabilityKnowhow>
