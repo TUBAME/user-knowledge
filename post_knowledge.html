@@ -120,6 +120,34 @@
 <dt>
 <span class="3.2.1.4."><a href="#tubame_3.2.1.4.">3.2.1.4.検索情報の作成</a></span>
 </dt>
+<dd>
+<dl>
+<dt>
+<span class="3.2.1.4.1."><a href="#tubame_3.2.1.4.1.">3.2.1.4.1.検索条件の設定方法</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="3.2.1.4.1.1."><a href="#tubame_3.2.1.4.1.1.">3.2.1.4.1.1.JAVAファイル検索</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="3.2.1.4.1.2."><a href="#tubame_3.2.1.4.1.2.">3.2.1.4.1.2.JSPファイル検索</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="3.2.1.4.1.3."><a href="#tubame_3.2.1.4.1.3.">3.2.1.4.1.3.XMLファイル検索</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</dd>
 </dl>
 </dd>
 </dl>
@@ -496,7 +524,7 @@
 					
 </p>
 <div class="figure">
-<a name="N10724"></a>
+<a name="N10774"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ナレッジエントリビュー</b>
 </p>
@@ -553,7 +581,7 @@
 							
 </p>
 <div class="figure">
-<a name="N10745"></a>
+<a name="N10795"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;ナレッジ詳細画面</b>
 </p>
@@ -574,7 +602,7 @@
 <p>ナレッジエントリービュー で選択している チェックアイテム情報 および 検索情報 を編集することができます。
 							</p>
 <div class="figure">
-<a name="N10752"></a>
+<a name="N107A2"></a>
 <p class="title">
 <b>Figure&nbsp;3.&nbsp;チェックアイテム画面</b>
 </p>
@@ -596,7 +624,7 @@
 								カテゴリ をドラッグドロップすることでドキュメントを構成していきます。
 							</p>
 <div class="figure">
-<a name="N1075F"></a>
+<a name="N107AF"></a>
 <p class="title">
 <b>Figure&nbsp;4.&nbsp;ドキュメンテーション画面</b>
 </p>
@@ -752,7 +780,7 @@
 					以下に各アイテムの説明を記載します。
 					</p>
 <div class="table">
-<a name="N1040C"></a>
+<a name="N10506"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;アイテムの種類</b>
 </p>
@@ -829,7 +857,7 @@
 			
 </p>
 <div class="figure">
-<a name="N10455"></a>
+<a name="N1054F"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;カテゴリ登録画面</b>
 </p>
@@ -885,7 +913,7 @@
 						
 </p>
 <div class="figure">
-<a name="N1047C"></a>
+<a name="N10576"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ナレッジ登録画面</b>
 </p>
@@ -927,7 +955,7 @@
 						
 </p>
 <div class="figure">
-<a name="N10490"></a>
+<a name="N1058A"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;ナレッジ詳細タブ</b>
 </p>
@@ -1030,7 +1058,7 @@
 						
 </p>
 <div class="figure">
-<a name="N104D7"></a>
+<a name="N105D1"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;チェックアイテム情報登録</b>
 </p>
@@ -1050,7 +1078,7 @@
 						
 </p>
 <div class="figure">
-<a name="N104E0"></a>
+<a name="N105DA"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;チェックアイテム情報登録Wizard画面</b>
 </p>
@@ -1088,7 +1116,7 @@
 								の各入力項目の説明をします。
 								</p>
 <div class="table">
-<a name="N104F7"></a>
+<a name="N105F1"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;チェックアイテム情報</b>
 </p>
@@ -1322,29 +1350,62 @@
 <a name="tubame_3.2.1.4."></a>
 <h3 class="title">3.2.1.4.検索情報の作成</h3>
 <br>
+<br>
+<a name="tubame_3.2.1.4.1."></a>
+<h3 class="title">3.2.1.4.1.検索条件の設定方法</h3>
+<br>
 <div class="section">
 <div class="titlepage"></div>
 <p>
-			
-</p>
+			TUBAMEの汎用検索はアナライザを利用して動的解析を行うのに対して、TUBAMEのナレッジベース検索はすべてテキストデータとして検索を行います。ナレッジ管理ツールで検索条件として指定できる主要な要素は以下になります。
+			</p>
 <div class="orderedlist">
 <ol class="orderedlist" type="1">
 <li class="listitem">
+<p>検索対象ファイル</p>
+<p>検索対象ファイルを指定する。</p>
+</li>
+<li class="listitem">
+<p>検索キーワード</p>
 <p>
-						検索情報の作成
-						<span class="guimenu">(チェックアイテムの選択)</span> &rarr; <span class="guimenuitem">右クリック</span> &rarr; <span class="guimenuitem">検索情報登録</span> &rarr; <span class="guimenuitem">検索情報登録Wizard起動</span>
-						
+						パラメータは２つ存在します。キー1とキー2が指定できます。
+						</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>検索キーワード1</p>
+<p>検索キーワード1のみ指定された場合は、そのキーが存在する行を出力します。</p>
+</li>
+<li class="listitem">
+<p>検索キーワード2</p>
+<p>検索キーワード1かつ検索キーワード2が指定された場合は、キー1にマッチしたファイルに対して、さらにキー2で検索し、キー2にマッチした行を出力します。
+								</p>
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+</li>
+<li class="listitem">
+<p>検索モジュールファイル</p>
+<p>XMLファイルでXPATH検索を行う場合のみ指定する。</p>
+</li>
+</ol>
+</div>
+<p>
+			
 </p>
 <div class="figure">
-<a name="N105C5"></a>
+<a name="N10961"></a>
 <p class="title">
-<b>Figure&nbsp;1.&nbsp;検索情報登録画面</b>
+<b>Figure&nbsp;1.&nbsp;ナレッジ管理ツールの検索条件(CheckItem)の設定画面</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="500">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
 <tr>
-<td><img src="ja/images/add_search_info.JPG" width="500" alt="検索情報登録画面"></td>
+<td><img src="ja/images/checkitem-setting.jpg" width="600" alt="ナレッジ管理ツールの検索条件(CheckItem)の設定画面"></td>
 </tr>
 </table>
 </div>
@@ -1352,27 +1413,9 @@
 </div>
 <p>
 <br class="figure-break">
-						
-</p>
-<div class="figure">
-<a name="N105CE"></a>
-<p class="title">
-<b>Figure&nbsp;2.&nbsp;検索情報登録Wizard画面</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="500">
-<tr>
-<td><img src="ja/images/add_search_info_wizard.JPG" width="500" alt="検索情報登録Wizard画面"></td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<p>
-<br class="figure-break">
-						
-</p>
+
+			以下に検索条件として、よく検索を行う以下の３つの種別(JAVA/XML/JSP)について検索条件の指定方法について示す。
+			</p>
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
@@ -1380,156 +1423,140 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>
-								検索情報登録Wizardでは入力なしに登録可能です。登録後は検索情報アイテムをダブルクリックすることで
-								<span class="guilabel">チェックアイテム</span>
-								タブで編集可能です。
-								</p>
-<div class="figure">
-<a name="N105DD"></a>
-<p class="title">
-<b>Figure&nbsp;3.&nbsp;チェックアイテムタブからの編集画面</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="500">
-<tr>
-<td><img src="ja/images/add_search_info_wizard_after_edit.JPG" width="500" alt="チェックアイテムタブからの編集画面"></td>
+<p>このドキュメントもナレッジ管理ツールで作成しており、で実際に以下の３つの種別について検索条件（チェックアイテム）を設定していますので、そちらも合わせてご確認ください。
+				</p>
+</td>
 </tr>
 </table>
 </div>
-</div>
-</div>
 <p>
-<br class="figure-break">
-							
+		
 </p>
-<p>
-								
-<span class="guilabel">チェックアイテム</span>
-								タブで編集する
-								<span class="guilabel">検索情報</span>
-								の各入力項目の説明をします。
-								</p>
+</div>
+<br>
+<br>
+<a name="tubame_3.2.1.4.1.1."></a>
+<h3 class="title">3.2.1.4.1.1.JAVAファイル検索</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>JAVAファイルの検索例として、weblogic.utils.FileUtilsを利用しているクラスを検索する。</p>
 <div class="table">
-<a name="N105EE"></a>
+<a name="N1097A"></a>
 <p class="title">
-<b>Table&nbsp;1.&nbsp;検索情報</b>
+<b>Table&nbsp;1.&nbsp;JAVAファイルの検索例
+			</b>
 </p>
 <div class="table-contents">
-<table summary="検索情報" border="1">
+<table summary="JAVAファイルの検索例
+			" border="1">
 <colgroup>
+<col>
+<col>
 <col>
 <col>
 </colgroup>
 <thead>
 <tr>
-<th>項目</th><th>説明</th>
+<th>検索対象ファイル</th><th>検索キーワード1</th><th>検索キーワード2</th><th>検索モジュール</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>検索対象ファイル</td><td>検索対象とするファイル名を入力します。正規表現での入力が可能です。
-												</td>
+<td>*.java</td><td>weblogic\.utils\.FileUtils</td><td>FileUtils</td><td>&nbsp;</td>
 </tr>
-<tr>
-<td>検索キーワード 1</td><td>
-													検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。
-													<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+</tbody>
+</table>
+</div>
+</div>
+<br class="table-break">
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
-														</p>
+<p>FileUtilsのようなほかのライブラリでも利用される汎用的なクラス名の場合は、目視確認項目として、   目視確認項目を入力してください。</p>
 </td>
 </tr>
 </table>
 </div>
-												
-</td>
-</tr>
+</div>
+<br>
+<br>
+<a name="tubame_3.2.1.4.1.2."></a>
+<h3 class="title">3.2.1.4.1.2.JSPファイル検索</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>JSPファイルの検索例として、JSPファイルで独自のタグ(wl:cache)を利用しているか検索する。</p>
+<div class="table">
+<a name="N109A1"></a>
+<p class="title">
+<b>Table&nbsp;1.&nbsp;JSPファイルの検索例
+			</b>
+</p>
+<div class="table-contents">
+<table summary="JSPファイルの検索例
+			" border="1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
 <tr>
-<td>検索キーワード 2</td><td>
-													検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。
-													<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+<th>検索対象ファイル</th><th>検索キーワード1</th><th>検索キーワード2</th><th>検索モジュール</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-<td valign="top" align="left">
-<p>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
-														</p>
-</td>
+<td>*.jsp</td><td>wl:cache</td><td>&nbsp;</td><td>&nbsp;</td>
 </tr>
+</tbody>
 </table>
 </div>
-												
-</td>
-</tr>
-<tr>
-<td>検索モジュール</td><td>
-													検索モジュール概要を参考に検索したいモジュールを選択します。
-													<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
+</div>
+<br class="table-break">
+</div>
+<br>
+<br>
+<a name="tubame_3.2.1.4.1.3."></a>
+<h3 class="title">3.2.1.4.1.3.XMLファイル検索</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
 <p>
-															未選択の場合は、標準検索機能により検索が実行されます。標準検索機能は、
-															<span class="guilabel">検索対象ファイル</span>
-															でヒットしたファイルに対して
-															<span class="guilabel">検索キーワード 1</span>
-															で検索後、
-															<span class="guilabel">検索キーワード 2</span>
-															でさらに検索を行います。
-														</p>
-</td>
+			XMLファイルの検索例として、weblogic.xmlでprint-nullsタグが利用されているかを検索する。
+			</p>
+<div class="table">
+<a name="N109C4"></a>
+<p class="title">
+<b>Table&nbsp;1.&nbsp;XMLファイルの検索例
+				</b>
+</p>
+<div class="table-contents">
+<table summary="XMLファイルの検索例
+				" border="1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>#</th><th>検索対象ファイル</th><th>検索キーワード1</th><th>検索キーワード2</th><th>検索モジュール</th><th>備考</th>
 </tr>
-</table>
-</div>
-												
-</td>
+</thead>
+<tbody>
+<tr>
+<td>1</td><td>weblogic.xml</td><td>print-nulls</td><td>&nbsp;</td><td>&nbsp;</td><td>TEXT検索</td>
 </tr>
 <tr>
-<td>検索モジュール概要</td><td>検索モジュールの概要説明が表示されます。</td>
-</tr>
-<tr>
-<td>ライン数算出</td><td>
-													検索にヒットした場合に
-													<span class="guilabel">ライン数</span>
-													に入力した値を移植工数として加算する場合はチェックを有効にします。
-												</td>
-</tr>
-<tr>
-<td>非算出理由</td><td>
-													<span class="guilabel">ライン数算出</span>
-													を無効にする場合は、その理由を入力します。
-												</td>
-</tr>
-<tr>
-<td>不明 / TODO</td><td>
-													<span class="guilabel">ライン数</span>
-													が不確定な場合に、該当する項目を選択します。
-												</td>
-</tr>
-<tr>
-<td>ライン数</td><td>移植に要するおおよその修正ライン数を入力します。</td>
-</tr>
-<tr>
-<td>ライン数根拠</td><td>
-													入力した
-													<span class="guilabel">ライン数</span>
-													の根拠を入力します。
-												</td>
-</tr>
-<tr>
-<td>調査内容</td><td>修正ライン数を算出するための調査方法等を入力します。</td>
+<td>2</td><td>weblogic.xml</td><td>//jsp-descriptor/print-nulls</td><td>&nbsp;</td><td>ext_search_xpath</td><td>XPATH検索</td>
 </tr>
 </tbody>
 </table>
@@ -1537,21 +1564,52 @@
 </div>
 <p>
 <br class="table-break">
-							
+           
+		
 </p>
+<p>XPATH検索の際、検索対象のXMLでネームスペースを検索している場合は、以下のように検索条件を設定してください。</p>
+<div class="table">
+<a name="N109F2"></a>
+<p class="title">
+<b>Table&nbsp;2.&nbsp;検索対象ファイルのXMLがネームスペースを利用している場合の検索例
+				</b>
+</p>
+<div class="table-contents">
+<table summary="検索対象ファイルのXMLがネームスペースを利用している場合の検索例
+				" border="1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>#</th><th>検索対象ファイル</th><th>検索キーワード1</th><th>検索キーワード2</th><th>検索モジュール</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td><td>weblogic.xml</td><td>//*[local-name()='jsp-descriptor']/*[local-name()='print-nulls']
+							</td><td>&nbsp;</td><td>ext_search_xpath</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br class="table-break">
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>XMLファイルの検索例の#2の検索条件については、weblogic.xmlがネームスペースを利用しているので検索例#3を指定してください。XMLファイルの検索例#2の検索条件で検索を行っても、検索対象のXMLファイルがネームスペースを利用しているので、ただしく検知できません。</p>
 </td>
 </tr>
 </table>
 </div>
-<p>
-					
-</p>
-</li>
-</ol>
-</div>
-<p>
-		
-</p>
 </div>
 <br>
 <br>
@@ -1593,7 +1651,7 @@
 			
 </p>
 <div class="figure">
-<a name="N1068D"></a>
+<a name="N106DD"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;見出し作成画面</b>
 </p>
@@ -1613,7 +1671,7 @@
 			
 </p>
 <div class="figure">
-<a name="N10696"></a>
+<a name="N106E6"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;見出し作成Wizard画面</b>
 </p>
@@ -1633,7 +1691,7 @@
 			
 </p>
 <div class="figure">
-<a name="N1069F"></a>
+<a name="N106EF"></a>
 <p class="title">
 <b>Figure&nbsp;3.&nbsp;見出し作成後の画面</b>
 </p>
@@ -1666,7 +1724,7 @@
 					をドラッグ&amp;ドロップすることでドキュメントを構成していきます。
 					</p>
 <div class="figure">
-<a name="N106B1"></a>
+<a name="N10701"></a>
 <p class="title">
 <b>Figure&nbsp;4.&nbsp;ドラッグ&amp;ドロップ画面</b>
 </p>
@@ -1685,7 +1743,7 @@
 					
 </p>
 <div class="figure">
-<a name="N106BA"></a>
+<a name="N1070A"></a>
 <p class="title">
 <b>Figure&nbsp;5.&nbsp;ドラッグ&amp;ドロップ画面後の画面</b>
 </p>
@@ -1760,7 +1818,7 @@
 			
 </p>
 <div class="figure">
-<a name="N106F3"></a>
+<a name="N10743"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;エディターメニュー画面(左より、HTML保存、XML保存、HTMLプレビュー)</b>
 </p>
