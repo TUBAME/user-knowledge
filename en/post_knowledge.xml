@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
+    <PortabilityKnowhowTitle>Knowledge How to contribute</PortabilityKnowhowTitle>
+    <EntryViewList>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_10</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_108</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_63</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_64</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_66</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_67</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_68</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_45</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_39</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_56</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_57</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_58</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_59</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_60</EntryCategoryRefKey>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_111</EntryCategoryRefKey>
+                        <ChildEntry>
+                            <EntryCategoryRefKey>category_112</EntryCategoryRefKey>
+                        </ChildEntry>
+                        <ChildEntry>
+                            <EntryCategoryRefKey>category_113</EntryCategoryRefKey>
+                        </ChildEntry>
+                        <ChildEntry>
+                            <EntryCategoryRefKey>category_114</EntryCategoryRefKey>
+                        </ChildEntry>
+                    </ChildEntry>
+                </ChildEntry>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_50</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_61</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_52</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_53</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_55</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_62</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_98</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_106</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_107</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
+        </EntryCategory>
+    </EntryViewList>
+    <ChapterList>
+        <Chapter>
+            <ChapterNo>1.</ChapterNo>
+            <ChapterName>Overview</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>1.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_55</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>2.</ChapterNo>
+            <ChapterName>Posts flow of knowledge</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>2.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_108</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_63</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_64</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.4.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_66</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.5.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_67</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.6.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_68</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>3.</ChapterNo>
+            <ChapterName>The knowledge by creating knowledge management tool</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>3.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_62</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>3.2.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_39</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>3.2.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_56</ChapterCategoryRefKey>
+                    <ChildChapter>
+                        <ChildCapterNo>3.2.1.1.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_57</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>3.2.1.2.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_58</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>3.2.1.3.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_59</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>3.2.1.4.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_60</ChapterCategoryRefKey>
+                        <ChildChapter>
+                            <ChildCapterNo>3.2.1.4.1.</ChildCapterNo>
+                            <ChapterCategoryRefKey>category_111</ChapterCategoryRefKey>
+                            <ChildChapter>
+<ChildCapterNo>3.2.1.4.1.1.</ChildCapterNo>
+<ChapterCategoryRefKey>category_112</ChapterCategoryRefKey>
+                            </ChildChapter>
+                            <ChildChapter>
+<ChildCapterNo>3.2.1.4.1.2.</ChildCapterNo>
+<ChapterCategoryRefKey>category_113</ChapterCategoryRefKey>
+                            </ChildChapter>
+                            <ChildChapter>
+<ChildCapterNo>3.2.1.4.1.3.</ChildCapterNo>
+<ChapterCategoryRefKey>category_114</ChapterCategoryRefKey>
+                            </ChildChapter>
+                        </ChildChapter>
+                    </ChildChapter>
+                </ChildChapter>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>3.3.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_50</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>3.3.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_61</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>3.4.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_52</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+    </ChapterList>
+    <CategoryList>
+        <Category categoryId="category_10" appropriate="true">
+            <CategoryName>Posts flow</CategoryName>
+            <KnowhowRefKey>knowhow_8</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_108" appropriate="true">
+            <CategoryName>Fork of user knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_74</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_63" appropriate="true">
+            <CategoryName>Clone of user knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_50</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_64" appropriate="true">
+            <CategoryName>Import and check out the user's knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_51</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_66" appropriate="true">
+            <CategoryName>Create a branch</CategoryName>
+            <KnowhowRefKey>knowhow_72</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_67" appropriate="true">
+            <CategoryName>Create knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_73</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_68" appropriate="true">
+            <CategoryName>Push and commit, pull request</CategoryName>
+            <KnowhowRefKey>knowhow_75</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_45" appropriate="true">
+            <CategoryName>Clone of template knowledge</CategoryName>
+        </Category>
+        <Category categoryId="category_39" appropriate="true">
+            <CategoryName>Create more information on knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_35</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_56" appropriate="true">
+            <CategoryName>Create items that constitute the knowledge </CategoryName>
+        </Category>
+        <Category categoryId="category_57" appropriate="true">
+            <CategoryName>Create categories</CategoryName>
+            <KnowhowRefKey>knowhow_41</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_58" appropriate="true">
+            <CategoryName>Create Knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_42</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_59" appropriate="true">
+            <CategoryName>Create check item</CategoryName>
+            <KnowhowRefKey>knowhow_43</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_60" appropriate="true">
+            <CategoryName>Creation of search information</CategoryName>
+            <KnowhowRefKey>knowhow_83</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_111" appropriate="true">
+            <CategoryName>How to set the search criteria</CategoryName>
+            <KnowhowRefKey>knowhow_79</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_112" appropriate="true">
+            <CategoryName>JAVA file search</CategoryName>
+            <KnowhowRefKey>knowhow_80</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_113" appropriate="true">
+            <CategoryName>JSP file search</CategoryName>
+            <KnowhowRefKey>knowhow_81</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_114" appropriate="true">
+            <CategoryName>XML file search</CategoryName>
+            <KnowhowRefKey>knowhow_82</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_50" appropriate="true">
+            <CategoryName>Documentation</CategoryName>
+            <KnowhowRefKey>knowhow_45</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_61" appropriate="true">
+            <CategoryName>Create chapeter</CategoryName>
+            <KnowhowRefKey>knowhow_46</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_52" appropriate="true">
+            <CategoryName>Save the file and document review</CategoryName>
+            <KnowhowRefKey>knowhow_47</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_53" appropriate="true">
+            <CategoryName>Pull request transmission of knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_48</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_55" appropriate="true">
+            <CategoryName>Operating environment</CategoryName>
+            <KnowhowRefKey>knowhow_76</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_62" appropriate="true">
+            <CategoryName>Tool Configuration</CategoryName>
+            <KnowhowRefKey>knowhow_49</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_98" appropriate="true">
+            <CategoryName>Documentation</CategoryName>
+        </Category>
+        <Category categoryId="category_106" appropriate="true">
+            <CategoryName>Documentation</CategoryName>
+            <KnowhowRefKey>knowhow_67</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_107" appropriate="true">
+            <CategoryName>Create chapeter</CategoryName>
+            <KnowhowRefKey>knowhow_68</KnowhowRefKey>
+        </Category>
+    </CategoryList>
+    <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_8" knowhowDetailRefKey="knowhowDetail_8">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_74" knowhowDetailRefKey="knowhowDetail_74">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_50" knowhowDetailRefKey="knowhowDetail_50">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_51" knowhowDetailRefKey="knowhowDetail_51">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_72" knowhowDetailRefKey="knowhowDetail_72">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_73" knowhowDetailRefKey="knowhowDetail_73">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_75" knowhowDetailRefKey="knowhowDetail_75">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_35" knowhowDetailRefKey="knowhowDetail_35">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_41" knowhowDetailRefKey="knowhowDetail_41">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_42" knowhowDetailRefKey="knowhowDetail_42">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_43" knowhowDetailRefKey="knowhowDetail_43">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_83" knowhowDetailRefKey="knowhowDetail_83">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_79" knowhowDetailRefKey="knowhowDetail_79">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_80" knowhowDetailRefKey="knowhowDetail_80">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+            <CheckItem checkItemId="checkItem_6" searchRefKey="searchInfo_3" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>JAVA File Search 1</CheckItemName>
+                <SearchProcess>Search for use in place of weblogic.utils.FileUtils for java file</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm>Search results, check visually whether FileUtils of weblogic. If you are not a FileUtils of weblogic, and does not transplant item</VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+            <CheckItem checkItemId="checkItem_8" searchRefKey="searchInfo_4" searchExistance="true">
+                <CheckItemNo>2</CheckItemNo>
+                <CheckItemName>JAVA file search 2</CheckItemName>
+                <SearchProcess>Search for use in place of weblogic.utils.FileUtils for java file</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低1</DegreeDetail>
+                <VisualConfirm>Search results, check visually whether FileUtils of weblogic. If you are not a FileUtils of weblogic, and does not transplant item</VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_81" knowhowDetailRefKey="knowhowDetail_81">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+            <CheckItem checkItemId="checkItem_7" searchRefKey="searchInfo_5" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>JSP file search</CheckItemName>
+                <SearchProcess>Search for available places in the cache: wl to target jsp files</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低2</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_82" knowhowDetailRefKey="knowhowDetail_82">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+            <CheckItem checkItemId="checkItem_9" searchRefKey="searchInfo_6" searchExistance="true">
+                <CheckItemNo>1</CheckItemNo>
+                <CheckItemName>Search XML file 1</CheckItemName>
+                <SearchProcess>Search for available places in the print-nulls in the target XML file</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低2</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+            <CheckItem checkItemId="checkItem_10" searchRefKey="searchInfo_7" searchExistance="true">
+                <CheckItemNo>2</CheckItemNo>
+                <CheckItemName>Search XML file 2</CheckItemName>
+                <SearchProcess>Search for available places in the print-nulls in the target XML file</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低2</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+            <CheckItem checkItemId="checkItem_11" searchRefKey="searchInfo_8" searchExistance="true">
+                <CheckItemNo>3</CheckItemNo>
+                <CheckItemName>XML file search 3</CheckItemName>
+                <SearchProcess>Search for available places in the print-nulls in the target XML file</SearchProcess>
+                <PortabilityFactor>Weblogic 固有</PortabilityFactor>
+                <PortabilityDegree>Low</PortabilityDegree>
+                <DegreeDetail>低2</DegreeDetail>
+                <VisualConfirm></VisualConfirm>
+                <HearingConfirm></HearingConfirm>
+            </CheckItem>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_45" knowhowDetailRefKey="knowhowDetail_45">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_46" knowhowDetailRefKey="knowhowDetail_46">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_47" knowhowDetailRefKey="knowhowDetail_47">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_48" knowhowDetailRefKey="knowhowDetail_48">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_76" knowhowDetailRefKey="knowhowDetail_76">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_49" knowhowDetailRefKey="knowhowDetail_49">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_67" knowhowDetailRefKey="knowhowDetail_67">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_68" knowhowDetailRefKey="knowhowDetail_68">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+    </KnowhowList>
+    <DocBookList>
+        <DocBook articleId="knowhowDetail_8">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			Knowledge post to TUBAME community is the following flow.
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>Fork of user knowledge</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Clone of user knowledge</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Import and check out the user's knowledge</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Create a branch</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Create Knowledge</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Push and commit, pull request</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_35">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>I described below how to create knowledge.</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+					Open user knowledge of XML files (UserKnowledge.xml)
+				</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guimenu>Open With</ns2:guimenu>
+    <ns2:guimenuitem>Other</ns2:guimenuitem>
+    <ns2:guimenuitem>Knowledge editor</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Operation of knowledge entry view</ns2:para>
+                            <ns2:para>
+					Knowledge of each int ther
+					<ns2:guilabel>knowledge view</ns2:guilabel>
+					, I will add, reference, update and delete
+					Knowledge that you create
+					can be used for documentation, etc. as an item.
+					<ns2:guilabel>Knowledge entry view</ns2:guilabel>
+					,will start in one of the following methods
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>
+								The automatic start after creating a new XML knowledge
+							</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>
+								Starting from the view menu of the Eclipse
+							</ns2:para>
+        <ns2:para>
+								<ns2:menuchoice>
+                <ns2:guimenu>Window</ns2:guimenu>
+                <ns2:guimenuitem>Show View</ns2:guimenuitem>
+                <ns2:guimenuitem>Other</ns2:guimenuitem>
+                <ns2:guimenuitem>Knowledge management tools</ns2:guimenuitem>
+                <ns2:guimenuitem>Knowledge entry view</ns2:guimenuitem>
+            </ns2:menuchoice>
+							</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+					Creating items that constitute the knowledge
+				</ns2:para>
+                            <ns2:para>
+					Perform the following steps to create the item. For the item does
+					not have any one, first you will want to create a
+					<ns2:guilabel>category</ns2:guilabel>
+					without fail.
+				</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guimenu>(Selection of items)</ns2:guimenu>
+    <ns2:guimenuitem>Right click</ns2:guimenuitem>
+    <ns2:guimenuitem>Register any menu</ns2:guimenuitem>
+    <ns2:guimenuitem>Registration Wizard starts</ns2:guimenuitem>
+</ns2:menuchoice>
+					<ns2:note>
+    <ns2:para>
+							If it is not select an item, it can only be created
+							<ns2:guilabel>category</ns2:guilabel>
+						</ns2:para>
+</ns2:note>
+					<ns2:note>
+    <ns2:para>In addition to the above, you can also create by copy &amp;
+							paste</ns2:para>
+</ns2:note>
+
+					The items that make up the knowledge is also available in the
+					following.。
+					I lists the description of each item below.
+					<ns2:table>
+    <ns2:title>Item types</ns2:title>
+    <ns2:tgroup cols="2">
+        <ns2:thead>
+            <ns2:row>
+                <ns2:entry>Item</ns2:entry>
+                <ns2:entry>Description</ns2:entry>
+            </ns2:row>
+        </ns2:thead>
+        <ns2:tbody>
+            <ns2:row>
+                <ns2:entry>Category</ns2:entry>
+                <ns2:entry>An item corresponding to the chapters and sections that
+										configure a document. It contains title information. </ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>Knowledge</ns2:entry>
+                <ns2:entry>
+										An item corresponding to knowledge content described in the
+										chapters and sections that configure a document. It contains
+										<ns2:tag>DocBook#Artile</ns2:tag>
+										format content information.
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>Check item</ns2:entry>
+                <ns2:entry>
+										An item that contains information whether or not corresponding
+										knowledge will need to be ported.
+										It contains information such as
+										<ns2:guilabel>search processes</ns2:guilabel>
+										,
+										<ns2:guilabel>porting factors</ns2:guilabel>
+										,
+										<ns2:guilabel>difficulty</ns2:guilabel>
+										and other information.
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>Search information</ns2:entry>
+                <ns2:entry>
+										A search logic item that the
+										<ns2:application>Portability Evaluator</ns2:application>
+										uses during searches.
+									</ns2:entry>
+            </ns2:row>
+        </ns2:tbody>
+    </ns2:tgroup>
+</ns2:table>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+					Operation of knowledge editor
+				</ns2:para>
+                            <ns2:para>
+					Refer to 「Creating items that constitute the knowledge」 below,
+					to manipulate the knowledge editor, please create a knowledge.
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                    <ns2:note>
+                        <ns2:para>
+				If you are working with (UserKnowledge.xml) user knowledge XML file
+				in the TUBAME community, &quot;Sample knowledge&quot; has been
+				registered as a sample.
+				For the item of
+				<ns2:guilabel>user knowledge </ns2:guilabel>
+				in the
+				<ns2:guilabel> knowledge entry view</ns2:guilabel>
+				, please do.
+			</ns2:para>
+                    </ns2:note>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_41">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			<ns2:menuchoice>
+                            <ns2:guimenu>(Selection of items)</ns2:guimenu>
+                            <ns2:guimenuitem>Right click</ns2:guimenuitem>
+                            <ns2:guimenuitem>Create Category</ns2:guimenuitem>
+                            <ns2:guimenuitem>Create Category Wizard starts</ns2:guimenuitem>
+                        </ns2:menuchoice>
+			<ns2:figure>
+                            <ns2:title>Create Category  screen</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/Category-registration-screen.JPG" width="500"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+			<ns2:note>
+                            <ns2:para>Please register the category name</ns2:para>
+                        </ns2:note>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_42">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>
+						Create knowledge
+						<ns2:menuchoice>
+        <ns2:guimenu>(Select a Category Items)</ns2:guimenu>
+        <ns2:guimenuitem>Right click</ns2:guimenuitem>
+        <ns2:guimenuitem>Create knowledge</ns2:guimenuitem>
+        <ns2:guimenuitem>Create knowledge Wizard starts</ns2:guimenuitem>
+    </ns2:menuchoice>
+
+						<ns2:figure>
+        <ns2:title>Create knowledge screen</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="en/images/Knowledge-registration-screen.JPG" width="500"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+						<ns2:note>
+        <ns2:para>please register the name of knowledge</ns2:para>
+    </ns2:note>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						Knowledge content editing
+						<ns2:menuchoice>
+        <ns2:guilabel>Knowledge Details</ns2:guilabel>
+    </ns2:menuchoice>
+
+						<ns2:figure>
+        <ns2:title>ナレッジ詳細タブ</ns2:title>
+        <ns2:programlisting/>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="en/images/Knowledge-content-editing-Knowledge-Details.JPG" width="800"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+						<ns2:note>
+        <ns2:itemizedlist>
+            <ns2:listitem>
+                <ns2:para>By using the knowledge details tab, please create content in DocBook format</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>HTML preview can be content that you have created.</ns2:para>
+                <ns2:para>
+										<ns2:menuchoice>
+                        <ns2:guimenu>(Editor area of knowledge detail tab)</ns2:guimenu>
+                        <ns2:guimenuitem>Right click</ns2:guimenuitem>
+                        <ns2:guimenuitem>HTML Preview</ns2:guimenuitem>
+                    </ns2:menuchoice>
+									</ns2:para>
+            </ns2:listitem>
+        </ns2:itemizedlist>
+    </ns2:note>
+						<ns2:warning>
+        <ns2:para>About the content material</ns2:para>
+        <ns2:itemizedlist>
+            <ns2:listitem>
+                <ns2:para>Image file</ns2:para>
+                <ns2:para>If you want to specify the image file in mediaobject tag, please specify the path relative to the project.
+									</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>Text file</ns2:para>
+                <ns2:para>If you want to specify a text file in programlisting tag to specify the relative path from plugins / tubame.knowhow_ * / resources / xsl knowledge management (tubame.knowhow) plug-in
+									</ns2:para>
+            </ns2:listitem>
+        </ns2:itemizedlist>
+    </ns2:warning>
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_43">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>
+						Create a check item
+						<ns2:menuchoice>
+        <ns2:guimenu>(Selection of knowledge items)</ns2:guimenu>
+        <ns2:guimenuitem>Right click</ns2:guimenuitem>
+        <ns2:guimenuitem>Create checkItem</ns2:guimenuitem>
+        <ns2:guimenuitem>Create checkItem Wizard starts</ns2:guimenuitem>
+    </ns2:menuchoice>
+						<ns2:figure>
+        <ns2:title>Create checkItem screen</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="en/images/Check-item-information-registration.JPG" width="500"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+
+						<ns2:figure>
+        <ns2:title>Check item information registration Wizard screen</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="en/images/Check-item-information-registration-Wizard-screen.JPG" width="500"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+						<ns2:note>
+        <ns2:para>
+								Can be registered in only check item name in the check item
+								information registration Wizard. After registration can be
+								edited in
+								<ns2:guilabel>check items</ns2:guilabel>
+								tab by double-clicking the check item information.。
+							</ns2:para>
+        <ns2:para>
+								I gives a description of each input item of
+								<ns2:guilabel>check items information</ns2:guilabel>
+								you want to edit in the
+								<ns2:guilabel>check items</ns2:guilabel>
+								tab below
+
+
+							</ns2:para>
+    </ns2:note>
+						
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+            <ns2:table>
+                            <ns2:title>Check Item Information</ns2:title>
+                            <ns2:tgroup cols="2">
+<ns2:thead>
+    <ns2:row>
+        <ns2:entry>Item</ns2:entry>
+        <ns2:entry>Description</ns2:entry>
+    </ns2:row>
+</ns2:thead>
+<ns2:tbody>
+    <ns2:row>
+        <ns2:entry>Search process</ns2:entry>
+        <ns2:entry>Provide an overview of which port items registered as
+											knowledge should be searched and how they should be searched.
+										</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Conduct a search</ns2:entry>
+        <ns2:entry>
+											Select this checkbox to conduct searches using the
+											<ns2:application>Portability Evaluator</ns2:application>
+											.
+										</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Porting factor</ns2:entry>
+        <ns2:entry>Searches items that correspond to the reason for the
+											need to port code.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Difficulty</ns2:entry>
+        <ns2:entry>
+											Selects the difficulty of porting work.
+
+											<ns2:note>
+                <ns2:para>The criteria used for selection are described below.
+												</ns2:para>
+                <ns2:itemizedlist>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>High</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>Requires major rewriting of the implementation
+															involving major changes to the implementation, settings
+															and other changes.</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Medium</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>Requires minor rewriting of the implementation.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Low</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>Can be handled by minor rewriting that does not
+															affect implementation.</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Unknown</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>Unknown difficulty</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Impossible to port</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>Impossible to port</ns2:para>
+                    </ns2:listitem>
+                </ns2:itemizedlist>
+            </ns2:note>
+										</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Difficulty details</ns2:entry>
+        <ns2:entry>
+											Selects difficulty details of porting work.
+
+											<ns2:note>
+                <ns2:para>The criteria used for selection are described below.
+												</ns2:para>
+                <ns2:itemizedlist>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>High</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Involves a
+															<ns2:guilabel>high</ns2:guilabel>
+															level of difficulty.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Medium</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Involves a
+															<ns2:guilabel>Medium</ns2:guilabel>
+															level of difficulty.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Low 1</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Items that involve a
+															<ns2:guilabel>low</ns2:guilabel>
+															level of difficulty but cannot be processed by simple
+															replacement.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Low 2</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Items that involve a
+															<ns2:guilabel>low</ns2:guilabel>
+															level of difficulty and can be processed by simple
+															replacement.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Unknown 1</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Difficulty is
+															<ns2:guilabel>unknown</ns2:guilabel>
+															and JBoss does not have a function for determining
+															difficulty.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Unknown 2</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Difficulty is
+															<ns2:guilabel>unknown</ns2:guilabel>
+															and it is not even known whether JBoss has an applicable
+															function for determining difficulty.
+														</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>
+															<ns2:guilabel>Impossible to port</ns2:guilabel>
+														</ns2:para>
+                        <ns2:para>
+															Involves a level of difficulty that makes
+															<ns2:guilabel>Impossible to port</ns2:guilabel>
+															.
+														</ns2:para>
+                    </ns2:listitem>
+                </ns2:itemizedlist>
+            </ns2:note>
+										</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Visual check</ns2:entry>
+        <ns2:entry>Enter criteria or investigation methods of visual
+											checks when set logical search conditions are not enough to
+											define items that need to be ported.
+										</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Inquiry check</ns2:entry>
+        <ns2:entry>Enter items to be checked with developers when the need
+											for porting cannot be determined without checking with the
+											developer.
+										</ns2:entry>
+    </ns2:row>
+</ns2:tbody>
+                            </ns2:tgroup>
+                        </ns2:table>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_45">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>You can create the <ns2:guilabel>documentation</ns2:guilabel> tab than the chapters of the document
+		</ns2:para>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>Create chapeter</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guimenu>File</ns2:guimenu>
+    <ns2:guimenuitem>New</ns2:guimenuitem>
+    <ns2:guimenuitem>Other</ns2:guimenuitem>
+    <ns2:guimenuitem>Knowledge XML file</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_46">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+The chapters of the document
+<ns2:guilabel> documentation </ns2:guilabel>
+You can create more
+
+		</ns2:para>
+                    <ns2:para>
+			<ns2:menuchoice>
+                            <ns2:guimenu>(Right-click in the documentation editor)</ns2:guimenu>
+                            <ns2:guimenuitem>Create chapeter</ns2:guimenuitem>
+                            <ns2:guimenuitem>Create chapeter Wizard starts</ns2:guimenuitem>
+                        </ns2:menuchoice>
+			<ns2:figure>
+                            <ns2:title>Heading creation screen</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/Heading-creation-screen.JPG" width="500"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+
+			<ns2:figure>
+                            <ns2:title>Create chapeter Wizard screen</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/Heading-create-Wizard-screen.JPG" width="500"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+			
+			<ns2:figure>
+                            <ns2:title>Screen of heading after creation</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/Screen-drag-and-drop-screen-after.JPG" width="500"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+			<ns2:note>
+                            <ns2:para>
+					
+					Please enter the name heading. We will continue to constitute a document by creating after the heading, drag and drop a <ns2:guilabel>category</ns2:guilabel> from the <ns2:guilabel>knowledge entry view</ns2:guilabel>.
+					
+					<ns2:figure>
+    <ns2:title>Drag-and-drop screen</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata fileref="en/images/Drag-and-drop-screen.png" width="500"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+					<ns2:figure>
+    <ns2:title>Screen drag-and-drop screen after</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata fileref="en/images/Screen-drag-and-drop-screen-after.JPG" width="500"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+				</ns2:para>
+                        </ns2:note>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_47">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>
+						I will confirm in HTML preview the entire document
+					</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenu>(Editor menu)</ns2:guimenu>
+        <ns2:guimenuitem>HTML Preview</ns2:guimenuitem>
+    </ns2:menuchoice>
+
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						I want to save documents into HTML files with
+				    </ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenu>(Editor menu)</ns2:guimenu>
+        <ns2:guimenuitem>Save HTML </ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						I saved as an XML document knowledge
+					</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenu>(Editor menu)</ns2:guimenu>
+        <ns2:guimenuitem>save XML</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+			<ns2:figure>
+                            <ns2:title>(From left, Save HTML, Save XML, HTML preview) editor menu screen</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/edtir-menu.png" width="500"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_48">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:title>body</ns2:title>
+                    <ns2:para>TODO:Please enter the text.</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_49">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>I show below the structure of the knowledge management tool. Knowledge management tool is composed of knowledge and knowledge entry editor and view
+		</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+					<ns2:guilabel>Knowledge entry view</ns2:guilabel>
+				</ns2:para>
+                            <ns2:para>
+                            I will add, reference, update and delete <ns2:guilabel>knowledge entry view</ns2:guilabel> on the knowledge of the individual. Knowledge that you create can be used for documentation, etc. as an item.
+					
+				</ns2:para>
+                            <ns2:para>
+					<ns2:figure>
+    <ns2:title>Knowledge entry view</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata fileref="en/images/Knowledge-entry-view.png" width="500"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+					<ns2:guilabel>Knowledge editor</ns2:guilabel>
+				</ns2:para>
+                            <ns2:para>
+					Knowledge editor, is composed of the three tabs:
+					<ns2:orderedlist>
+    <ns2:listitem>
+        <ns2:para>Knowledge Details</ns2:para>
+        <ns2:para>
+        It is an editor to edit <ns2:tag>DocBook#Article</ns2:tag> contents in the form of knowledge. It is also possible to perform a right-click in the editor, you want to insert the tag templates.
+								
+								<ns2:important>
+                <ns2:para>
+										To prevent chapters is the collapse section is create your own, you can not use the section tag.
+									</ns2:para>
+            </ns2:important>
+							</ns2:para>
+        <ns2:figure>
+            <ns2:title>Knowledge detail screen</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject>
+                    <ns2:imagedata fileref="en/images/Knowledge-detail-screen.png" width="500"/>
+                </ns2:imageobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>Check items</ns2:para>
+        <ns2:para>You can edit the information search and check information items selected in the knowledge entry view.
+							</ns2:para>
+        <ns2:figure>
+            <ns2:title>Check items screen</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject>
+                    <ns2:imagedata fileref="en/images/Check-items-screen.png" width="500"/>
+                </ns2:imageobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>Documentation</ns2:para>
+        <ns2:para>You can edit the chapter structure of the HTML document to be created. We will continue to constitute a document by creating after the heading, to drag-and-drop a category from the knowledge entry view.
+							</ns2:para>
+        <ns2:figure>
+            <ns2:title>Documentation screen</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject>
+                    <ns2:imagedata fileref="en/images/Documentation-screen.png" width="500"/>
+                </ns2:imageobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+    </ns2:listitem>
+</ns2:orderedlist>
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_50">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>
+
+						open the <ns2:guilabel>Git Repoistires View</ns2:guilabel> from Eclipse
+					</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenu>Window</ns2:guimenu>
+        <ns2:guimenuitem>Show View</ns2:guimenuitem>
+        <ns2:guimenuitem>Other</ns2:guimenuitem>
+        <ns2:guimenuitem>Git</ns2:guimenuitem>
+        <ns2:guimenuitem>Git Repositories</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>clone a user-knowledge repository can fork</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guilabel>Git Repoistires View</ns2:guilabel>
+        <ns2:guimenuitem>Clone a Git Repositories</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
+<ns2:note>
+    <ns2:para>Please enter the following in the URL.
+https://github.com/(github user name of your)/user-knowledge.git
+						</ns2:para>
+    <ns2:para>
+							Then
+							<ns2:menuchoice>
+            <ns2:guimenuitem>Next</ns2:guimenuitem>
+            <ns2:guimenuitem>Master</ns2:guimenuitem>
+            <ns2:guimenuitem>Next</ns2:guimenuitem>
+            <ns2:guimenuitem>Finish</ns2:guimenuitem>
+        </ns2:menuchoice>
+						</ns2:para>
+    <ns2:para>The Finish later, user-knowledge repository is registered in the <ns2:guilabel>Git Repoistires View</ns2:guilabel>.
+							
+						</ns2:para>
+</ns2:note>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_51">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>Check out user-knowledge</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guilabel>Git Repoistires View</ns2:guilabel>
+    <ns2:guimenuitem>user-knowledge</ns2:guimenuitem>
+    <ns2:guimenuitem>FETCH-HEAD</ns2:guimenuitem>
+    <ns2:guimenuitem>Right click</ns2:guimenuitem>
+    <ns2:guimenuitem>CheckOut</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                            <ns2:note>
+<ns2:para>
+
+						
+						<ns2:guimenuitem>User-knowledge</ns2:guimenuitem> will be expanded to the <ns2:guimenuitem>Working Directory</ns2:guimenuitem> of <ns2:guilabel>Git Repoistires View</ns2:guilabel>
+					</ns2:para>
+                            </ns2:note>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Importing Eclipse project as a user-knowledge</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guilabel>Git Repoistires View</ns2:guilabel>
+    <ns2:guimenuitem>Working Directory</ns2:guimenuitem>
+    <ns2:guimenuitem>user-knowledge</ns2:guimenuitem>
+    <ns2:guimenuitem>Right click</ns2:guimenuitem>
+    <ns2:guimenuitem>Import Project</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                            <ns2:note>
+<ns2:para>
+						<ns2:guilabel>Imports Project Wizard</ns2:guilabel>
+						Please: After starting
+					</ns2:para>
+<ns2:para>
+    <ns2:menuchoice>
+        <ns2:guilabel>Imports Project Wizard</ns2:guilabel>
+        <ns2:guimenuitem>Wizard for projects</ns2:guimenuitem>
+        <ns2:guimenuitem>Import as general project</ns2:guimenuitem>
+        <ns2:guimenuitem>Next</ns2:guimenuitem>
+        <ns2:guimenuitem>Finsih</ns2:guimenuitem>
+    </ns2:menuchoice>
+</ns2:para>
+                            </ns2:note>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_67">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+                    You can create the <ns2:guilabel>documentation</ns2:guilabel> tab than the chapters of the document
+		</ns2:para>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>Create chapeter</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guimenu>File</ns2:guimenu>
+    <ns2:guimenuitem>New</ns2:guimenuitem>
+    <ns2:guimenuitem>Other</ns2:guimenuitem>
+    <ns2:guimenuitem>Knowledge XML file</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_68">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			
+			You can create <ns2:guilabel>documentation</ns2:guilabel> from the chapter structure of the document
+			
+		</ns2:para>
+                    <ns2:para>
+			<ns2:menuchoice>
+                            <ns2:guilabel>Documentation</ns2:guilabel>
+                            <ns2:guimenu>(Right-click in the documentation editor)</ns2:guimenu>
+                            <ns2:guimenuitem>Create chapeter</ns2:guimenuitem>
+                            <ns2:guimenuitem>Create chapeter Wizard starts</ns2:guimenuitem>
+                        </ns2:menuchoice>
+			<ns2:figure>
+                            <ns2:title>Create chapeter Wizard screen</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/portability/Heading-create-Wizard-screen.JPG" width="800"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+			<ns2:note>
+                            <ns2:para>
+                            Please enter the name heading. We will continue to constitute a document by creating after the heading, drag and drop a <ns2:guilabel>category</ns2:guilabel> from the <ns2:guilabel>knowledge entry view</ns2:guilabel>.
+                           					<ns2:figure>
+    <ns2:title>Drag-and-drop screen</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata fileref="en/images/portability/Drag-and-drop-screen.png" width="500"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+				</ns2:para>
+                        </ns2:note>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_72">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>create a branch</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guilabel>Project Explorer</ns2:guilabel>
+    <ns2:guimenuitem>Team</ns2:guimenuitem>
+    <ns2:guimenuitem>Switch To</ns2:guimenuitem>
+    <ns2:guimenuitem>new Branch</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                            <ns2:note>
+<ns2:para>
+						The Wizard starts, please enter your name in the branch <ns2:guilabel>Branch name.</ns2:guilabel>
+					</ns2:para>
+<ns2:para>Check mark will be given to the branch that you created when you successfully completed
+						<ns2:menuchoice>
+        <ns2:guilabel>Git Repoistires View</ns2:guilabel>
+        <ns2:guimenuitem>user-knowledge</ns2:guimenuitem>
+        <ns2:guimenuitem>Branches</ns2:guimenuitem>
+        <ns2:guimenuitem>(作成したブランチ)</ns2:guimenuitem>
+    </ns2:menuchoice>
+</ns2:para>
+                            </ns2:note>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_73">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>Reference to the following 「knowledge creating more」, to create a knowledge</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_74">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>Please forks a user-knowledge from the URL below</ns2:para>
+                    <ns2:para>
+                    URL:<ns2:link>https://github.com/TUBAME/user-knowledge</ns2:link>
+        </ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_75">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>Add the target file</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guilabel>Project Exploer</ns2:guilabel>
+    <ns2:guimenuitem>Select the file to be changed</ns2:guimenuitem>
+    <ns2:guimenuitem>Right click</ns2:guimenuitem>
+    <ns2:guimenuitem>Team</ns2:guimenuitem>
+    <ns2:guimenuitem>Add</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Commit of the target file</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guilabel>Project Exploer</ns2:guilabel>
+    <ns2:guimenuitem>Select the project</ns2:guimenuitem>
+    <ns2:guimenuitem>Commit</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Push</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guilabel>Project Exploer</ns2:guilabel>
+    <ns2:guimenuitem>Select the project</ns2:guimenuitem>
+    <ns2:guimenuitem>Remote</ns2:guimenuitem>
+    <ns2:guimenuitem>Push</ns2:guimenuitem>
+</ns2:menuchoice>
+					<ns2:note>
+    <ns2:para>Please to Push the tag that you created in the repository of your github account</ns2:para>
+</ns2:note>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Pull request</ns2:para>
+                            <ns2:note>
+<ns2:para>Please perform the pull request from github  your account</ns2:para>
+                            </ns2:note>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_76">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>When you post a user knowledge to TUBAME community of ithub on, you can use the pull requests Github.</ns2:para>
+                    <ns2:para>
+			The following is required to pull the request user knowledge of TUBAME.
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>github account</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+			
+			You also need to take advantage of Eclipse EGIT plug-in, Eclipse EGIT plug-ins are pre-installed in this procedure.
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_79">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			
+			Against TUBAME dependence search tools for dynamic analysis by using the analyzer, TUBAME knowledge-based search tool to search all data as text. Key elements that can be set in the TUMABE knowledge management tool is as follows.
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>Search for files</ns2:para>
+<ns2:para>specify the search file</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Search keyword</ns2:para>
+<ns2:para>
+						Parameter there are two. I can specify a search keyword1 and search keyword2.
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>search keyword1</ns2:para>
+            <ns2:para>If the search only one keyword1 is specified, I will output the rows that the key is present.</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>search keyword2</ns2:para>
+            <ns2:para>If the keyword 1 and keyword 2 is specified, for a file that matches the keyword 1, and search for the keyword 2 In addition, it prints the line that matches the key keyword 2.
+								</ns2:para>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Search module file</ns2:para>
+<ns2:para>Specifies only when performing a search on XPATH XML file.</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+			<ns2:figure>
+                            <ns2:title>Setting screen (CheckItem) search of knowledge management tools</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata fileref="en/images/Setting-checkItem-screen.JPG" width="600"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+            
+            <ns2:table>
+                            <ns2:title>Search Information</ns2:title>
+                            <ns2:tgroup cols="2">
+<ns2:thead>
+    <ns2:row>
+        <ns2:entry>Item</ns2:entry>
+        <ns2:entry>Description</ns2:entry>
+    </ns2:row>
+</ns2:thead>
+<ns2:tbody>
+    <ns2:row>
+        <ns2:entry>Target search file</ns2:entry>
+        <ns2:entry>Enter the name of files subject to search.  Regular expressions can be used in entries. 
+									</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Search keyword 1</ns2:entry>
+        <ns2:entry>Enter the parameters that will be passed to the search module.  Regular expressions and XPath entries can be made.<ns2:note>
+                <ns2:para>The parameters that can be entered differ with the search module. Enter parameters using the search module overview as reference.</ns2:para>
+            </ns2:note>
+    </ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Search keyword 2</ns2:entry>
+        <ns2:entry>Enter the parameters that will be passed to the search module.  Regular expressions and XPath entries can be made.<ns2:note>
+                <ns2:para>The parameters that can be entered differ with the search module. Enter parameters using the search module overview as reference.</ns2:para>
+            </ns2:note>
+    </ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Search module</ns2:entry>
+        <ns2:entry>Select the module to search based on the search module overview.<ns2:note>
+                <ns2:para>If not selected, the standard search function is used for the search. The standard search function performs searches using <ns2:guilabel>search keyword 1</ns2:guilabel> and then <ns2:guilabel>search keyword 2</ns2:guilabel> to search files found among <ns2:guilabel>Target search files</ns2:guilabel>.</ns2:para>
+            </ns2:note>
+    </ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Search Module overview</ns2:entry>
+        <ns2:entry>Displays a description of the search module overview.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Line count calculation</ns2:entry>
+        <ns2:entry>Select this checkbox when the value in the <ns2:guilabel>Line count</ns2:guilabel> field should be added as porting man-hours when a search returns a hit.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Reason for not calculating</ns2:entry>
+        <ns2:entry>
+        Enter the reason when <ns2:guilabel>line count calculation</ns2:guilabel> should be ignored.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Unknown/TODO</ns2:entry>
+        <ns2:entry>
+        When the <ns2:guilabel>line count</ns2:guilabel> is not finalized, select an applicable item.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Line count</ns2:entry>
+        <ns2:entry>Enter the rough number of lines that should be rewritten during porting.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Line count basis</ns2:entry>
+        <ns2:entry>Enter the reason for the entered <ns2:guilabel>line count</ns2:guilabel>.</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Investigation details</ns2:entry>
+        <ns2:entry>Enter the investigation method for calculating the number of lines that will be rewritten.</ns2:entry>
+    </ns2:row>
+</ns2:tbody>
+                            </ns2:tgroup>
+                        </ns2:table>
+
+
+			Shows how to specify the search criteria type the following three as the search criteria, do a search well below (JAVA / XML / JSP).
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_80">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>As a search example of JAVA file, I want to search for classes that use the weblogic.utils.FileUtils.</ns2:para>
+                    <ns2:table>
+                        <ns2:title>Search example of JAVA file
+			</ns2:title>
+                        <ns2:tgroup cols="4">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>Search for files</ns2:entry>
+    <ns2:entry>Search Keywords1</ns2:entry>
+    <ns2:entry>Search Keywords2</ns2:entry>
+    <ns2:entry>Search module</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>*.java</ns2:entry>
+    <ns2:entry>weblogic\.utils\.FileUtils</ns2:entry>
+    <ns2:entry>FileUtils</ns2:entry>
+    <ns2:entry/>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                    <ns2:note>
+                        <ns2:para>For a class name generic would also be available to other libraries such as FileUtils, as visual confirmation item, please enter the visual confirmation item.</ns2:para>
+                    </ns2:note>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_81">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>Search as an example of the JSP file, its own tag in a JSP file: to find that you are using (wl cache).</ns2:para>
+                    <ns2:table>
+                        <ns2:title>Search example of a JSP file
+			</ns2:title>
+                        <ns2:tgroup cols="4">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>Search for files</ns2:entry>
+    <ns2:entry>Search Keywords1</ns2:entry>
+    <ns2:entry>Search Keywords2</ns2:entry>
+    <ns2:entry>Search module</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>*.jsp</ns2:entry>
+    <ns2:entry>wl:cache</ns2:entry>
+    <ns2:entry/>
+    <ns2:entry/>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_82">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			Search as an example of an XML file, to search print-nulls tag is being used in weblogic.xml.
+			<ns2:table>
+                            <ns2:title>Search example of an XML file
+				</ns2:title>
+                            <ns2:tgroup cols="4">
+<ns2:thead>
+    <ns2:row>
+        <ns2:entry>#</ns2:entry>
+        <ns2:entry>Search for files</ns2:entry>
+        <ns2:entry>Search Keywords1</ns2:entry>
+        <ns2:entry>Search Keywords2</ns2:entry>
+        <ns2:entry>Search module</ns2:entry>
+        <ns2:entry>備考</ns2:entry>
+    </ns2:row>
+</ns2:thead>
+<ns2:tbody>
+    <ns2:row>
+        <ns2:entry>1</ns2:entry>
+        <ns2:entry>weblogic.xml</ns2:entry>
+        <ns2:entry>print-nulls</ns2:entry>
+        <ns2:entry/>
+        <ns2:entry/>
+        <ns2:entry>TEXT Search</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>2</ns2:entry>
+        <ns2:entry>weblogic.xml</ns2:entry>
+        <ns2:entry>//jsp-descriptor/print-nulls</ns2:entry>
+        <ns2:entry/>
+        <ns2:entry>ext_search_xpath</ns2:entry>
+        <ns2:entry>XPATH search</ns2:entry>
+    </ns2:row>
+</ns2:tbody>
+                            </ns2:tgroup>
+                        </ns2:table>
+           
+		</ns2:para>
+                    <ns2:para>If you want to search by XPATH, if you are searching for a namespace in the XML to search for, please set the search criteria as follows.</ns2:para>
+                    <ns2:table>
+                        <ns2:title>Search example of the XML file being searched for is using the namespace
+				</ns2:title>
+                        <ns2:tgroup cols="4">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>#</ns2:entry>
+    <ns2:entry>Search for files</ns2:entry>
+    <ns2:entry>Search Keywords1</ns2:entry>
+    <ns2:entry>Search Keywords2</ns2:entry>
+    <ns2:entry>Search module</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>3</ns2:entry>
+    <ns2:entry>weblogic.xml</ns2:entry>
+    <ns2:entry>//*[local-name()='jsp-descriptor']/*[local-name()='print-nulls']
+							</ns2:entry>
+    <ns2:entry/>
+    <ns2:entry>ext_search_xpath</ns2:entry>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                    <ns2:warning>
+                        <ns2:para>The search conditions search Example 2 of the XML file, weblogic.xml Because of the use of the name space, please specify the search Example 3.
+                        
+                        </ns2:para>
+                    </ns2:warning>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_83">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>
+						Add seach info
+						<ns2:menuchoice>
+        <ns2:guimenu>(Select a Check Items)</ns2:guimenu>
+        <ns2:guimenuitem>Right click</ns2:guimenuitem>
+        <ns2:guimenuitem>Add Search Info</ns2:guimenuitem>
+        <ns2:guimenuitem>Add Search Info Wizard starts</ns2:guimenuitem>
+    </ns2:menuchoice>
+
+						<ns2:figure>
+        <ns2:title>Add Search Info screen</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="en/images/Add-Search-Info-Screen.JPG" width="500"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+
+
+						<ns2:figure>
+        <ns2:title>Add search info wizard screen</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="en/images/Add-Search-Info-Wizard-Screen.JPG" width="500"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+						
+
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+    </DocBookList>
+    <SearchInfomationList>
+        <SearchInfomation searchInfoId="searchInfo_3">
+            <FileType>*.java</FileType>
+            <SearchKey1>weblogic\.utils\.FileUtils</SearchKey1>
+            <SearchKey2>FileUtils</SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>TODO:SE 手動算出</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_4">
+            <FileType>*.java</FileType>
+            <SearchKey1>weblogic\.utils\.\*</SearchKey1>
+            <SearchKey2>FileUtils</SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>TODO:SE 手動算出</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_5">
+            <FileType>*.jsp</FileType>
+            <SearchKey1>wl:cache</SearchKey1>
+            <SearchKey2></SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>TODO:SE 手動算出</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_6">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>print-nulls</SearchKey1>
+            <SearchKey2></SearchKey2>
+            <PythonModule></PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>TODO:SE 手動算出</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_7">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>//jsp-descriptor/print-nulls</SearchKey1>
+            <SearchKey2>//*[local-name()='jsp-descriptor']/*[local-name()='print-nulls']</SearchKey2>
+            <PythonModule>ext_search_xml_xpath.py</PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>TODO:SE 手動算出</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+        <SearchInfomation searchInfoId="searchInfo_8">
+            <FileType>weblogic.xml</FileType>
+            <SearchKey1>//jsp-descriptor/print-nulls</SearchKey1>
+            <SearchKey2></SearchKey2>
+            <PythonModule>ext_search_xml_xpath.py</PythonModule>
+            <LineNumberInfomation>
+                <LineNumber>TODO:SE 手動算出</LineNumber>
+                <LineNumberContents></LineNumberContents>
+                <Investigation></Investigation>
+            </LineNumberInfomation>
+            <Appropriate lineNumberAppropriate="true">
+                <AppropriateContents></AppropriateContents>
+            </Appropriate>
+        </SearchInfomation>
+    </SearchInfomationList>
+</PortabilityKnowhow>
