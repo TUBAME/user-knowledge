@@ -1,0 +1,1104 @@
+<HTML xmlns:knowhow="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:doc="http://docbook.org/ns/docbook">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Tomcat6.0.xから7.0.xへのマイグレーションガイド</title>
+<link href="css/docbook.css" type="text/css" rel="stylesheet">
+<meta content="DocBook XSL Stylesheets V1.78.1" name="generator">
+</HEAD>
+<BODY>
+<H1 class="title">Tomcat6.0.xから7.0.xへのマイグレーションガイド</H1>
+<div class="toc">
+<p>
+<b>Index</b>
+</p>
+<dl class="toc">
+<dt>
+<span class="1."><a href="#tubame_1.">1.Java6必須</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="1.1."><a href="#tubame_1.1.">1.1.Java6必須</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.2."><a href="#tubame_1.2.">1.2.J2EE非推奨API</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="1.2.1."><a href="#tubame_1.2.1.">1.2.1.Servlet非推奨API</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.2.2."><a href="#tubame_1.2.2.">1.2.2.JSP非推奨API</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.2.3."><a href="#tubame_1.2.3.">1.2.3.Servlet、JSP以外の非推奨API</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</dd>
+<dt>
+<span class="2."><a href="#tubame_2.">2.Servlet 3.0 API</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1."><a href="#tubame_2.1.">2.1.Servlet 3.0 API</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="3."><a href="#tubame_3.">3.正規表現</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="3.1."><a href="#tubame_3.1.">3.1.正規表現</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="4."><a href="#tubame_4.">4.デプロイメント</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="4.1."><a href="#tubame_4.1.">4.1.デプロイメント</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="5."><a href="#tubame_5.">5.Managerアプリケーション</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="5.1."><a href="#tubame_5.1.">5.1.Managerアプリケーション</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="6."><a href="#tubame_6.">6.Host Managerアプリケーション</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="6.1."><a href="#tubame_6.1.">6.1.Host Managerアプリケーション</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="7."><a href="#tubame_7.">7.Session Managerコンフィグレーション</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="7.1."><a href="#tubame_7.1.">7.1.Session Managerコンフィグレーション</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="8."><a href="#tubame_8.">8.Session Cookieコンフィグレーション</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="8.1."><a href="#tubame_8.1.">8.1.Session Cookieコンフィグレーション</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="9."><a href="#tubame_9.">9.Cookies</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="9.1."><a href="#tubame_9.1.">9.1.Cookies</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="10."><a href="#tubame_10.">10.Request属性</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="10.1."><a href="#tubame_10.1.">10.1.Request属性</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="11."><a href="#tubame_11.">11.Comet</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="11.1."><a href="#tubame_11.1.">11.1.Comet</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="12."><a href="#tubame_12.">12.XMLバリデーション</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="12.1."><a href="#tubame_12.1.">12.1.XMLバリデーション</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="13."><a href="#tubame_13.">13.システムプロバティ</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="13.1."><a href="#tubame_13.1.">13.1.システムプロパティ</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="14."><a href="#tubame_14.">14.conf/web.xmlファイル処理</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="14.1."><a href="#tubame_14.1.">14.1.conf/web.xmlファイル処理</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="15."><a href="#tubame_15.">15.Welcomeファイル処理</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="15.1."><a href="#tubame_15.1.">15.1.Welcomeファイル処理</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="16."><a href="#tubame_16.">16.アノテーション・スキャン</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="16.1."><a href="#tubame_16.1.">16.1.アノテーション・スキャン</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="17."><a href="#tubame_17.">17.TLD処理</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="17.1."><a href="#tubame_17.1.">17.1.TLD処理</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="18."><a href="#tubame_18.">18.内部API</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="18.1."><a href="#tubame_18.1.">18.1.内部API</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="19."><a href="#tubame_19.">19.JSPコンパイラ</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="19.1."><a href="#tubame_19.1.">19.1.JSPコンパイラ</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="20."><a href="#tubame_20.">20.その他注意点</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="20.1."><a href="#tubame_20.1.">20.1.コネクタとスレッドプール</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.2."><a href="#tubame_20.2.">20.2.アクセスログ</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.3."><a href="#tubame_20.3.">20.3.レルム</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.4."><a href="#tubame_20.4.">20.4.セッションの最終アクセス時間</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.5."><a href="#tubame_20.5.">20.5.ライフサイクルリスナ</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.6."><a href="#tubame_20.6.">20.6.クラスタ</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.7."><a href="#tubame_20.7.">20.7.Valve</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="20.8."><a href="#tubame_20.8.">20.8.スレッドローカル削除</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<HR>
+<a name="tubame_1."></a>
+<h2 class="title">1.Java6必須</h2>
+<br>
+<a name="tubame_1.1."></a>
+<h3 class="title">1.1.Java6必須</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Tomcat7.0.xは、Java6以降が必須となる。</p>
+</div>
+<br>
+<br>
+<a name="tubame_1.2."></a>
+<h3 class="title">1.2.J2EE非推奨API</h3>
+<br>
+<br>
+<a name="tubame_1.2.1."></a>
+<h3 class="title">1.2.1.Servlet非推奨API</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>以下は、Servlet3.0で非推奨となったAPIの一覧であり、これらAPIを利用している場合には、代替となるAPIを利用するように修正する必要がある。</p>
+<p>推奨されていないインタフェース</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.http.HttpSessionContext</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.SingleThreadModel</p>
+</li>
+</ul>
+</div>
+<p>推奨されていないクラス</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.http.HttpUtils</p>
+</li>
+</ul>
+</div>
+<p>推奨されていないメソッド</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.http.HttpServletRequest.isRequestedSessionIdFromUrl()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdFromUrl()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletResponse.encodeRedirectUrl(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletResponse.encodeUrl(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletResponse.setStatus(int, String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletResponseWrapper.encodeRedirectUrl(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletResponseWrapper.encodeUrl(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpServletResponseWrapper.setStatus(int, String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSession.getSessionContext()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSession.getValue(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSession.getValueNames()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSession.putValue(String, Object)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSession.removeValue(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSessionContext.getIds()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.http.HttpSessionContext.getSession(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.ServletContext.getServlet(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.ServletContext.getServletNames()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.ServletContext.getServlets()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.ServletContext.log(Exception, String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.ServletRequest.getRealPath(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.ServletRequestWrapper.getRealPath(String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.UnavailableException.getServlet()</p>
+</li>
+</ul>
+</div>
+<p>推奨されていないコンストラクタ</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.UnavailableException(int, Servlet, String)</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.UnavailableException(Servlet, String)</p>
+</li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_1.2.2."></a>
+<h3 class="title">1.2.2.JSP非推奨API</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>以下は、JSP2.2で非推奨となったAPIの一覧であり、これらAPIを利用している場合には、代替となるAPIを利用するように修正する必要がある。</p>
+<p>推奨されていないインタフェース</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.jsp.el.FunctionMapper</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.jsp.el.VariableResolver</p>
+</li>
+</ul>
+</div>
+<p>推奨されていないクラス</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.jsp.el.Expression</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.jsp.el.ExpressionEvaluator</p>
+</li>
+</ul>
+</div>
+<p>推奨されていない例外</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.jsp.el.ELException</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.jsp.el.ELParseException</p>
+</li>
+</ul>
+</div>
+<p>推奨されていないフィールド</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_TAG</p>
+</li>
+</ul>
+</div>
+<p>推奨されていないメソッド</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>javax.servlet.jsp.JspContext.getExpressionEvaluator()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.jsp.JspContext.getVariableResolver()</p>
+</li>
+<li class="listitem">
+<p>javax.servlet.jsp.JspContext.getRootCause()</p>
+</li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_1.2.3."></a>
+<h3 class="title">1.2.3.Servlet、JSP以外の非推奨API</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Servlet、JSP以外にも、JAXB、JSF、EJB、JCAなどで非推奨となっているAPIを利用している場合も、代替となるAPIを利用するように修正する必要がある。</p>
+<p>詳細は下記URLを参照のこと。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>http://docs.oracle.com/javaee/6/api/</p>
+</li>
+<li class="listitem">
+<p>http://docs.oracle.com/javaee/6/api/deprecated-list.html</p>
+</li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_2."></a>
+<h2 class="title">2.Servlet 3.0 API</h2>
+<br>
+<a name="tubame_2.1."></a>
+<h3 class="title">2.1.Servlet 3.0 API</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Tomcat7.0.xは、Servlet 3.0、JSP2.2、EL2.2仕様をサポートしている。</p>
+<p></p>
+<p>
+    	 ワイルドカード（*）のimport構文を使用するJSPページでは、Servlet APIに追加された新しいクラスとWebアプリケーションに含まれるクラスが競合する可能性がある。
+    	 例えば、パッケージ "a" にPartクラスが含まれている場合、次のJSPページはTomcat7でコンパイルできなくなる。
+    	 </p>
+<p>
+         これは、javax.servlet.http.*の暗黙的なimportとa.*の明示的なimportにおいて、Servlet3.0で追加されたPartクラスの定義の競合するために発生する問題である。
+        Tomcatは、JSP&rarr;Servletファイル（.java）のコンパイルの際、デフォルトのimportとして"javax.servlet.*"、"javax.servlet.http.*"、"javax.servlet.jsp.*"を設定するため、JSPにおいてワイルドカードのimport文を使用すると、Servlet3.0で追加されたクラスと衝突してしまう。
+        </p>
+<p>この問題を解決するには、明示的なimport（この例では、import="a.Part"）を利用することである。</p>
+</div>
+<br>
+<br>
+<a name="tubame_3."></a>
+<h2 class="title">3.正規表現</h2>
+<br>
+<a name="tubame_3.1."></a>
+<h3 class="title">3.1.正規表現</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>正規表現を使用するすべての設定オプションは、コンマあるいはセミコロン区切りのリストではなく、（java.util.regexを利用する）単一の正規表現を指定する必要がある。</p>
+<p>以下の属性が関係するため、正規表現を見直す必要がある。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>RemoteAddrFilter、RemoteHostFilter、RemoteAddrValve、RemoteHostValveのallow属性とdeny属性</p>
+</li>
+<li class="listitem">
+<p>RemoteIpFilter、RemoteIpValveのinternalProxies属性とtrustedProxies属性</p>
+</li>
+<li class="listitem">
+<p>ReplicationValveのfilter属性</p>
+</li>
+<li class="listitem">
+<p>HTTP ConnectorsのrestrictedUserAgents属性とnoCompressionUserAgents属性</p>
+</li>
+</ul>
+</div>
+<p>また、"|"演算子を用いて、別々の正規表現を連結することができることに注意すること。</p>
+</div>
+<br>
+<br>
+<a name="tubame_4."></a>
+<h2 class="title">4.デプロイメント</h2>
+<br>
+<a name="tubame_4.1."></a>
+<h3 class="title">4.1.デプロイメント</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+        Tomcat7において、Hostに追加されたxmlBase属性、copyXML属性によって、デフォルトの動作が変更されたので注意が必要となる。
+        </p>
+<p>xmlBase属性によって、Hostのコンフィグレーションファイルの配置場所が変更可能。デフォルトは未設定で、Tomcat6と同様$CATALINA_BASE/conf/Engine名/Host名となる。</p>
+<p>copy属性によって、XMLコンテキストディスクリプタ（META-INF/context.xml）をxmlBaseにコピーするかどうかを決定。デフォルトはfalseで、デプロイしたWARファイルやディレクトリからcontext.xmlはコピーされない。</p>
+<p>したがって、Tomcat6&rarr;Tomcat7へのバージョンアップで、META-INF/context.xmlの取扱いが変更されたこととなる。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>Tomcat6では、META-INF/context.xmlを$CATALINA_BASE/conf/Engine名/Host名に"コンテキスト名".xmlとしてコピーし、リデプロイのチェック対象は、"コンテキスト名".xmlとなる。</p>
+</li>
+<li class="listitem">
+<p>Tomcat7では、META-INF/context.xmlをパースだけしコピーはしない。リデプロイのチェック対象は、META-INF/context.xmlとなる。</p>
+</li>
+</ul>
+</div>
+<p>Tomcat6のデフォルトの振る舞いにするには、HostのcopyXML属性にtrueを設定することで有効にすることができる。</p>
+</div>
+<br>
+<br>
+<a name="tubame_5."></a>
+<h2 class="title">5.Managerアプリケーション</h2>
+<br>
+<a name="tubame_5.1."></a>
+<h3 class="title">5.1.Managerアプリケーション</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Managerアプリケーションは、Tomcat7以降では再構成されており、いくつかのURLが変更されている。Managerアプリケーションへのアクセスに使用されるすべてのURLは、次のオプションのいずれかで始まる必要がある。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>&lt;ContextPath&gt;/html（HTML GUI）</p>
+</li>
+<li class="listitem">
+<p>&lt;ContextPath&gt;/text（テキストインタフェース）</p>
+</li>
+<li class="listitem">
+<p>&lt;ContextPath&gt;/jmxproxy（JMXプロキシ）</p>
+</li>
+<li class="listitem">
+<p>&lt;ContextPath&gt;/status（statusページ）</p>
+</li>
+</ul>
+</div>
+<p>特に、テキストインタフェースのURLが、&lt;ContextPath&gt;/textに変更されていることに注意すること。</p>
+<p>Managerアプリケーションを利用するために必要なロールは、単一のmanagerロールから次の4つのロールに変更され、アクセスしたい機能に必要なロールを割り当てる必要がある。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>manager-gui：HTML GUIとstatusページへのアクセスを許可</p>
+</li>
+<li class="listitem">
+<p>manager-script：テキストインタフェースとstatusページへのアクセスを許可</p>
+</li>
+<li class="listitem">
+<p>manager-jmx：JMXプロキシとstatusページへのアクセスを許可</p>
+</li>
+<li class="listitem">
+<p>manager-status：statusページへのアクセスのみ許可</p>
+</li>
+</ul>
+</div>
+<p>HTMLインタフェースは、CSRF（Cross Site Request Forgeries）に対して保護されているが、テキストインタフェースとJMXインタフェースは保護されていない。</p>
+<p>CSRFに対して保護するために、</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>manager-guiロールが付与されているユーザには、manager-scriptあるいはmanager-jmxロールを付与しない</p>
+</li>
+<li class="listitem">
+<p>Managerアプリケーションがmanager-scriptあるいはmanager-jmxロールが付与されているユーザからブラウザでアクセスされた場合には、
+                セッションを終了させるために後でブラウザの全てのウィンドウを閉じる必要がある。</p>
+</li>
+</ul>
+</div>
+<p>rolesコマンドは、デフォルト設定では動作しないことと、ほとんどのレルムがロールリストのサポートをしていないため、Managerアプリケーションから削除された。HTMLインタフェースは、CSRF（Cross Site Request Forgeries）に対して保護されているが、テキストインタフェースとJMXインタフェースは保護されていない。</p>
+</div>
+<br>
+<br>
+<a name="tubame_6."></a>
+<h2 class="title">6.Host Managerアプリケーション</h2>
+<br>
+<a name="tubame_6.1."></a>
+<h3 class="title">6.1.Host Managerアプリケーション</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Host Managerアプリケーションは、Tomcat7以降では再構成されており、いくつかのURLが変更されている。Host Managerアプリケーションへのアクセスに使用されるすべてのURLは、次のオプションのいずれかで始まる必要がある。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>&lt;ContextPath&gt;/html（HTML GUI）</p>
+</li>
+<li class="listitem">
+<p>&lt;ContextPath&gt;/text（テキストインタフェース）</p>
+</li>
+</ul>
+</div>
+<p>特に、テキストインタフェースのURLが、&lt;ContextPath&gt;/textに変更されていることに注意すること。</p>
+<p>Host Managerアプリケーションを利用するために必要なロールが、単一のadminロールから次の2つのロールに変更され、アクセスしたい機能に必要なロールを割り当てる必要がある。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>admin-gui：HTML GUIとstatusページへのアクセスを許可</p>
+</li>
+<li class="listitem">
+<p>admin-script：テキストインタフェースとstatusページへのアクセスを許可</p>
+</li>
+</ul>
+</div>
+<p>HTMLインタフェースは、CSRFに対して保護されているが、テキストインタフェースとJMXインタフェースは保護されていない。</p>
+<p>CSRFに対して保護するために、</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>admin-guiロールが付与されているユーザには、admin-scriptロールを付与しない</p>
+</li>
+<li class="listitem">
+<p>Host Managerアプリケーションがadmin-scriptロールが付与されているユーザからブラウザでアクセスされた場合には、
+                セッションを終了させるために後でブラウザの全てのウィンドウを閉じる必要がある。</p>
+</li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_7."></a>
+<h2 class="title">7.Session Managerコンフィグレーション</h2>
+<br>
+<a name="tubame_7.1."></a>
+<h3 class="title">7.1.Session Managerコンフィグレーション</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>セッションの生成や破棄のパフォーマンスを改善するために、セッションID作成に対する変更など、Session Managerに対して多くの変更が実施された。</p>
+<p>コンフィグレーションの変更点は、以下のとおり。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>ManagerのrandomClass属性は、secureRandomClassに変更。提供されるクラスは、java.secure.SecureRandomを拡張する必要がある</p>
+</li>
+<li class="listitem">
+<p>追加されたsecureRandomAlgorithm属性とsecureRandomProvider属性は、SecureRandom実装の選択を可能とする</p>
+</li>
+<li class="listitem">
+<p>algorithm属性、entropy属性は削除</p>
+</li>
+</ul>
+</div>
+<p>セッションID作成処理が大幅に変更となったため、旧バージョンとの互換性がなくなり、上記設定を行っているユーザは、設定ファイルの変更が必須となる。</p>
+</div>
+<br>
+<br>
+<a name="tubame_8."></a>
+<h2 class="title">8.Session Cookieコンフィグレーション</h2>
+<br>
+<a name="tubame_8.1."></a>
+<h3 class="title">8.1.Session Cookieコンフィグレーション</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Servlet 3.0仕様におけるSessionCookieConfigの追加により、コンフィグレーションおよびコードの複雑さを軽減するために、多くのSession Cookie設定オプションは削除された。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>ConnectorのemptySessionPath属性は削除。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookiePath="/"を設定することによって、同等の効果が得られる</p>
+</li>
+<li class="listitem">
+<p>org.apache.catalina.SESSION_COOKIE_NAME システムプロパティは削除。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookieName属性を設定することによって、同等の効果が得られる</p>
+</li>
+<li class="listitem">
+<p>org.apache.catalina.SESSION_PARAMETER_NAME システムプロパティは削除。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookieName属性を設定することによって、同等の効果が得られる</p>
+</li>
+<li class="listitem">
+<p>ContextのdisableURLRewriting属性は削除。Webアプリケーションあるいは$CATALINA_BASE/conf/web.xmlにおいて、session-config/tracking-mode要素を設定することによって、同等の効果が得られる</p>
+</li>
+</ul>
+</div>
+<p>Tomcat7のセッションおよびSSO Cookieは、JavaScriptからのアクセスを防ぐために、デフォルトでHttpOnlyフラグで送信されてくる。この機能は、Context要素のuseHttpOnly属性によって制御することができる。</p>
+<p>（この機能は、Tomcat6.0の最新バージョンでは、デフォルトでオフとなっているため、有効にするには、Webアプリケーションあるいは$CATALINA_BASE/conf/web.xmlのContext要素のuseHttpOnly属性にtrueを設定すればよい。）</p>
+</div>
+<br>
+<br>
+<a name="tubame_9."></a>
+<h2 class="title">9.Cookies</h2>
+<br>
+<a name="tubame_9.1."></a>
+<h3 class="title">9.1.Cookies</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Tomcatは、デフォルトで、仕様に準拠しない名前のみのCookieを受け入れなくなった。</p>
+<p>ただし、新しくorg.apache.tomcat.util.http.ServerCookie.ALLOW_NAME_ONLYシステムプロパティが追加され、名前のみのCookieを受け入れるようにすることができる。</p>
+</div>
+<br>
+<br>
+<a name="tubame_10."></a>
+<h2 class="title">10.Request属性</h2>
+<br>
+<a name="tubame_10.1."></a>
+<h3 class="title">10.1.Request属性</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Servlet仕様において、標準Request属性javax.servlet.request.ssl_session_idが新しく定義されたため、SSLセッションIDにアクセスするために提供されているカスタムRequest属性javax.servlet.request.ssl_sessionは廃止となった。</p>
+<p>このカスタム属性は、Tomcat8で削除される予定である。</p>
+</div>
+<br>
+<br>
+<a name="tubame_11."></a>
+<h2 class="title">11.Comet</h2>
+<br>
+<a name="tubame_11.1."></a>
+<h3 class="title">11.1.Comet</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>セキュリティマネージャの下で、Cometが正しく動作することを可能にするために、Cometのクラスは、org.apache.catalinaパッケージからorg.apache.catalina.cometパッケージに移動された。</p>
+<p>Cometを使用するコードは更新し、新しいパッケージ名を反映するように再コンパイルする必要がある。</p>
+</div>
+<br>
+<br>
+<a name="tubame_12."></a>
+<h2 class="title">12.XMLバリデーション</h2>
+<br>
+<a name="tubame_12.1."></a>
+<h3 class="title">12.1.XMLバリデーション</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>XMLバリデーションの構成が簡素化され、xmlValidationとxmlNamespaceAware属性は、Host要素から削除された。</p>
+<p>これらの属性は、tldValidationとtldNamespaceAware属性とともに、Context要素ごとに設定される。デフォルト値は、各属性とも変更されておらず、falseである。</p>
+</div>
+<br>
+<br>
+<a name="tubame_13."></a>
+<h2 class="title">13.システムプロバティ</h2>
+<br>
+<a name="tubame_13.1."></a>
+<h3 class="title">13.1.システムプロパティ</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Tomcat6.0では、org.apache.catalina.STRICT_SERVLET_COMPLIANCEシステムプロパティによって、統一的に仕様制約を制御していた。
+        ただし、それでは柔軟な設定ができないということで、Tomcat7.0では、org.apache.catalina.STRICT_SERVLET_COMPLIANCEシステムプロパティで
+        デフォルト値を設定し、仕様制約ごとのシステムプロパティや設定で上書きできるように変更された。</p>
+<p>Tomcat7.0で、org.apache.catalina.STRICT_SERVLET_COMPLIANCEシステムプロパティがデフォルトを設定する制約は、以下のとおり。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>org.apache.catalina.core.ApplicationContext.GET_RESOURCE_REQUIRE_SLASH</p>
+</li>
+<li class="listitem">
+<p>org.apache.catalina.core.ApplicationDispatcher.WRAP_SAME_OBJECT</p>
+</li>
+<li class="listitem">
+<p>org.apache.catalina.core.StandardHostValve.ACCESS_SESSION</p>
+</li>
+<li class="listitem">
+<p>org.apache.catalina.session.StandardSession.ACTIVITY_CHECK</p>
+</li>
+<li class="listitem">
+<p>org.apache.catalina.session.StandardSession.LAST_ACCESS_AT_START</p>
+</li>
+<li class="listitem">
+<p>org.apache.tomcat.util.http.ServerCookie.ALWAYS_ADD_EXPIRES</p>
+</li>
+<li class="listitem">
+<p>org.apache.tomcat.util.http.ServerCookie.FWD_SLASH_OS_SEPARATOR</p>
+</li>
+<li class="listitem">
+<p>org.apache.tomcat.util.http.ServerCookie.STRICT_NAMING</p>
+</li>
+<li class="listitem">
+<p>Context要素のresourceOnlyServlets属性</p>
+</li>
+<li class="listitem">
+<p>Context要素のtldNamespaceAware属性</p>
+</li>
+<li class="listitem">
+<p>Context要素のtldValidation属性</p>
+</li>
+<li class="listitem">
+<p>Context要素のxmlNamespaceAware属性</p>
+</li>
+<li class="listitem">
+<p>Context要素のxmlValidation属性</p>
+</li>
+</ul>
+</div>
+<p>org.apache.coyote.MAX_TRAILER_SIZEシステムプロパティは削除され、Connector要素のmaxTrailerSize属性によって置き換えられる。</p>
+</div>
+<br>
+<br>
+<a name="tubame_14."></a>
+<h2 class="title">14.conf/web.xmlファイル処理</h2>
+<br>
+<a name="tubame_14.1."></a>
+<h3 class="title">14.1.conf/web.xmlファイル処理</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Servlet3.0仕様では、Webフラグメントおよびアノテーションからどのようにアプリケーションのweb.xmlファイルを組合わせることができるかを定義する。</p>
+<p>それらの規則を実装した結果、（サーバ全体に渡るデフォルトを定義するグローバルな）conf/web.xmlファイルの処理は変更された。</p>
+<p>ひとつ顕著な違いとしては、conf/web.xmlに定義されているFilterではなく、Webアプリケーションに定義されているものにしたがうといったものである。</p>
+</div>
+<br>
+<br>
+<a name="tubame_15."></a>
+<h2 class="title">15.Welcomeファイル処理</h2>
+<br>
+<a name="tubame_15.1."></a>
+<h3 class="title">15.1.Welcomeファイル処理</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Servlet3.0仕様において、welcomeファイルに対する処理が変更され、Context要素のresourceOnlyServlets属性が追加された。</p>
+</div>
+<br>
+<br>
+<a name="tubame_16."></a>
+<h2 class="title">16.アノテーション・スキャン</h2>
+<br>
+<a name="tubame_16.1."></a>
+<h3 class="title">16.1.アノテーション・スキャン</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Servlet3.0仕様にて必要となるアノテーション・スキャンは、Webアプリケーションの起動時間に影響を与えるだけでなく、スキャンされるクラスをロードするために多くのメモリ容量が必要となる可能性がある。</p>
+<p>この問題に対する対処策はいくつか存在する。推奨される方法の一つは、WebアプリケーションのWEB-INF/web.xmlにおいて次の手順を実施することにより、アノテーション・スキャンを必要としないアプリケーションをマークすることである。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>Webアプリケーションがバージョン3.0仕様にしたがっていることを示すために、web-app要素を更新する</p>
+<p>デフォルトのconf/web.xmlからversion、xsi:schemaLocation、xmlns、xmlns:xsi属性の値をコピーする</p>
+</li>
+<li class="listitem">
+<p>web-app要素に、属性metadata-complete="true"を追加</p>
+</li>
+<li class="listitem">
+<p>空の&lt;absolute-ordering /&gt;要素を追加</p>
+</li>
+</ul>
+</div>
+<p>２つめの方法は、特定のJARファイルを無視するように、JarScannerコンポーネントを設定することである。通常、tomcat.util.scan.DefaultJarScanner.jarsToSkipシステムプロパティは、conf/catalina.propertiesファイルに設定する。</p>
+</div>
+<br>
+<br>
+<a name="tubame_17."></a>
+<h2 class="title">17.TLD処理</h2>
+<br>
+<a name="tubame_17.1."></a>
+<h3 class="title">17.1.TLD処理</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>TLD処理については、一貫性の改善を重複の排除といった内部のリファクタリングに加えて、いくつかの機能改善がある。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>タグファイル内のEL処理は、タグファイルに宣言されているJSPのバージョンと一致する</p>
+</li>
+<li class="listitem">
+<p>TLDファイルをWEB-INF/libあるいはWEB-INF/classesディレクトリに配置することは許可されていない</p>
+</li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_18."></a>
+<h2 class="title">18.内部API</h2>
+<br>
+<a name="tubame_18.1."></a>
+<h3 class="title">18.1.内部API</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Tomcat7の内部APIが、Tomcat6と広く互換性をもっている一方、詳細レベルに多くの変更がありバイナリ互換ではない。</p>
+<p>Tomcat内部APIを利用しているカスタムコンポーネントについては、関連するAPIのJavaDocを確認する必要がある。特に注目すべき点は以下のとおり。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>すべてのコンポーネントが拡張するLifecycleインタフェースの標準実装</p>
+</li>
+<li class="listitem">
+<p>genericsの利用</p>
+</li>
+<li class="listitem">
+<p>Host内のContextのためのユニークな識別子として、Contextパスではなく、Context名を利用</p>
+</li>
+</ul>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_19."></a>
+<h2 class="title">19.JSPコンパイラ</h2>
+<br>
+<a name="tubame_19.1."></a>
+<h3 class="title">19.1.JSPコンパイラ</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>JspServletの初期化パラメータが、genStrAsCharArrayからgenStringAsCharArrayに変更された。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20."></a>
+<h2 class="title">20.その他注意点</h2>
+<br>
+<a name="tubame_20.1."></a>
+<h3 class="title">20.1.コネクタとスレッドプール</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>コネクタの実装をリファクタリングにより統一された実装とし、また、独自のスレッドプールからの実装からjava標準のExecutorベースのスレッドプールに変更された。</p>
+<p>その結果、以下のような変更があり注意が必要である。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>コネクタの設定からmaxSpareThreads属性が削除された</p>
+</li>
+<li class="listitem">
+<p>スレッドプールを参照するためのObjectNameも変更された</p>
+<p>具体的には、Tomcat7からnameが(ajp/http)-(bio/nio/apr)+encodedAddr+endpoint.getPort()となった</p>
+</li>
+<li class="listitem">
+<p>各コネクタでLogfullメッセージも出力されない</p>
+</li>
+<li class="listitem">
+<p>AJPコネクタは、registerRequests属性が無効となった</p>
+</li>
+</ul>
+</div>
+<p>また、特にjk系のパッケージは全て削除されたため、今までのJKコネクタとはまったく異なる実装となっており、以前のノウハウは利用できないものが多くなった。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20.2."></a>
+<h3 class="title">20.2.アクセスログ</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>デフォルトで無効から有効に変更され、ログのフォーマットもcommonから"%h %l %u %t "%r" %s %b"に変更された。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20.3."></a>
+<h3 class="title">20.3.レルム</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>Tomcat7.0では、デフォルトで、LockOutRealmが有効に設定されているため、認証失敗の回数に制限がかかる。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20.4."></a>
+<h3 class="title">20.4.セッションの最終アクセス時間</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>LAST_ACCESS_AT_STARTシステムプロパティの追加により、セッションの最終アクセス時間とアイドル時間の算出方法が変更となった。</p>
+<p>最終アクセス時間は、LAST_ACCESS_AT_STARTがtrueならば、前のリクエストの開始から計算され、falseならば、前のリクエストの終了から計算される。</p>
+<p>セッションタイムアウトをチェックするためのセッションアイドル時間は、以下のように算出される。</p>
+<div class="table">
+<a name="N12A1A"></a>
+<p class="title">
+<b>Table&nbsp;1.&nbsp;Tomcat7.0とTomcat6.0のセッションアイドル時間の計算方法</b>
+</p>
+<div class="table-contents">
+<table summary="Tomcat7.0とTomcat6.0のセッションアイドル時間の計算方法" border="1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td>&nbsp;</td><td>7.0.x (LAST_ACCESS_AT_START=true)</td><td>7.0.x (LAST_ACCESS_AT_START=false)</td><td>6.0.x</td>
+</tr>
+<tr>
+<td>アクセス開始</td><td>thisAccessTimeにカレントタイムを設定</td><td>thisAccessTimeにカレントタイムを設定</td><td>lastAccessTimeにthisAcccessTime（前回アクセス開始時間）を設定し、thisAccessTimeにカレントタイムを設定</td>
+</tr>
+<tr>
+<td>アクセス終了</td><td>lastAccessTimeにthisAcccessTime（今回アクセス開始時間）を設定し、thisAccessTimeにカレントタイムを設定</td><td>lastAccessTimeとthisAccessTimeにカレントタイムを設定</td><td>NOP</td>
+</tr>
+<tr>
+<td>セッションアイドル時間の算出</td><td>lastAccessTimeからの経過時間</td><td>thisAccessTimeからの経過時間</td><td>thisAccessTimeからの経過時間</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br class="table-break">
+</div>
+<br>
+<br>
+<a name="tubame_20.5."></a>
+<h3 class="title">20.5.ライフサイクルリスナ</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>org.apache.catalina.mbeans.ServerLifecycleListenerが、ライフサイクルのリファクタリングによって不要となったため、削除された。</p>
+<p>Tomcat6.0では、デフォルトでserver.xmlに設定されているため、server.xmlをそのまま利用することができない。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20.6."></a>
+<h3 class="title">20.6.クラスタ</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>BackupManagerが返却するアクティブなセッションの数が変更され、Tomcat6.0ではプライマリセッションのみであったが、Tomcat7.0からはプライマリ＋バックアップセッションとなった。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20.7."></a>
+<h3 class="title">20.7.Valve</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>RequestDumperValveとWebdavFixValveは削除され、代わりにorg.apache.catalina.filtersパッケージのFilterとして実装された。そのため、設定ファイルもserver.xml(context.xml)からweb.xmlに変更となる。</p>
+<p>FastCommonAccessLogValveが削除された。</p>
+</div>
+<br>
+<br>
+<a name="tubame_20.8."></a>
+<h3 class="title">20.8.スレッドローカル削除</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>clearReferencesThreadLocals属性（デフォルト：false）が削除され、org.apache.catalina.core.ThreadLocalLeakPreventionListenerが追加された。</p>
+</div>
+<br>
+<br>
+</BODY>
+</HTML>
