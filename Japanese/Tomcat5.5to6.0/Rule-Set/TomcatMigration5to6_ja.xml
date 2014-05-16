@@ -3498,7 +3498,7 @@
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>Tomcatの認証機能を使用している場合、changeSessionIdOnAuthentication属性のデフォルト値が変更されて、Tomcat5.5.xではfalseであったが、Tomcat6.0.xではtrueとなっている。</ns2:para>
-                    <ns2:para>Tomcat6.0.xでこの属性を向こうにする場合（Tomcat5.5.xと同様の動作にする場合）、changeSessionIdOnAuthentication属性を設定する必要がある。</ns2:para>
+                    <ns2:para>Tomcat6.0.xでこの属性を無効にする場合（Tomcat5.5.xと同様の動作にする場合）、changeSessionIdOnAuthentication属性を設定する必要がある。</ns2:para>
                     <ns2:programlisting>
         &lt;Valve className=&quot;...&quot;
          ...
