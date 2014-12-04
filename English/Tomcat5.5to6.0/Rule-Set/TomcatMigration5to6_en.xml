@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
-    <PortabilityKnowhowTitle>TomcatMigration5to6_en</PortabilityKnowhowTitle>
+    <PortabilityKnowhowTitle>TomcatMigration5to6</PortabilityKnowhowTitle>
     <EntryViewList>
         <EntryCategory>
             <EntryCategoryRefKey>category_6</EntryCategoryRefKey>
@@ -3244,7 +3244,7 @@
                 <ns2:section>
                     <ns2:para>Apache Tomcat 5.5.x used, by default, a directory structure including common, shared and server subdirectories. Apache Tomcat 6.0.x uses a single lib directory.</ns2:para>
                     <ns2:para>Starting with version 6.0.21, Apache Tomcat supports both the $CATALINA_BASE/lib and $CATALINA_HOME/lib directories. The jars and classes in $CATALINA_BASE/lib are earlier on the class path and thus take precedence.</ns2:para>
-                    <ns2:para>●Classloader</ns2:para>
+                    <ns2:para>[classloader]</ns2:para>
                     <ns2:para>As a result of the modification of the directory structure, the common, shared and server classloaders have been merged into one. Effectively, the shared and server classloaders are not configured by default and the common classloader is mapped to the lib directory.</ns2:para>
                     <ns2:para>This behavior and structure can be modified using the conf/catalina.properties file.</ns2:para>
                     <ns2:itemizedlist>
@@ -3314,7 +3314,7 @@
                             <ns2:para>http://tomcat.apache.org/tomcat-6.0-doc/extras.html</ns2:para>
                         </ns2:listitem>
                     </ns2:itemizedlist>
-                    <ns2:para>●commons-logging.jar</ns2:para>
+                    <ns2:para>[commons-logging.jar]</ns2:para>
                     <ns2:para>As Apache Tomcat no longer directly uses the Apache Commons Logging library, the commons-logging-api.jar library is no longer provided for the web applications. The web applications that use Apache Commons Logging have to provide their own copy of that library.</ns2:para>
                     <ns2:para> It is recommended to put it into their WEB-INF/lib directory, like any other JAR.</ns2:para>
                 </ns2:section>

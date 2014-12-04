@@ -385,7 +385,7 @@
 <div class="titlepage"></div>
 <p>Apache Tomcat 5.5.x used, by default, a directory structure including common, shared and server subdirectories. Apache Tomcat 6.0.x uses a single lib directory.</p>
 <p>Starting with version 6.0.21, Apache Tomcat supports both the $CATALINA_BASE/lib and $CATALINA_HOME/lib directories. The jars and classes in $CATALINA_BASE/lib are earlier on the class path and thus take precedence.</p>
-<p>●Classloader</p>
+<p>[classloader]</p>
 <p>As a result of the modification of the directory structure, the common, shared and server classloaders have been merged into one. Effectively, the shared and server classloaders are not configured by default and the common classloader is mapped to the lib directory.</p>
 <p>This behavior and structure can be modified using the conf/catalina.properties file.</p>
 <div class="itemizedlist">
@@ -458,7 +458,7 @@
 </li>
 </ul>
 </div>
-<p>●commons-logging.jar</p>
+<p>[commons-logging.jar]</p>
 <p>As Apache Tomcat no longer directly uses the Apache Commons Logging library, the commons-logging-api.jar library is no longer provided for the web applications. The web applications that use Apache Commons Logging have to provide their own copy of that library.</p>
 <p> It is recommended to put it into their WEB-INF/lib directory, like any other JAR.</p>
 </div>
