@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:ns3="http://docbook.org/ns/docbook">
     <PortabilityKnowhowTitle>Tomcat7.0.xから8.0.xへのマイグレーションガイド</PortabilityKnowhowTitle>
     <EntryViewList>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_22</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_24</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_25</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
         <EntryCategory>
             <EntryCategoryRefKey>category_1</EntryCategoryRefKey>
         </EntryCategory>
@@ -65,110 +74,145 @@
         <EntryCategory>
             <EntryCategoryRefKey>category_21</EntryCategoryRefKey>
         </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_23</EntryCategoryRefKey>
+        </EntryCategory>
     </EntryViewList>
     <ChapterList>
         <Chapter>
             <ChapterNo>1.</ChapterNo>
-            <ChapterName>Java7</ChapterName>
+            <ChapterName>はじめに</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>1.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_1</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_22</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>1.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_24</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>1.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_25</ChapterCategoryRefKey>
+                </ChildChapter>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>2.</ChapterNo>
-            <ChapterName>Java API</ChapterName>
+            <ChapterName>Java7</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>2.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_2</ChapterCategoryRefKey>
-                <ChildChapter>
-                    <ChildCapterNo>2.1.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_3</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>2.1.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_4</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>2.1.3.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_5</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>2.1.4.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_6</ChapterCategoryRefKey>
-                </ChildChapter>
-            </ChildChapter>
-            <ChildChapter>
-                <ChildCapterNo>2.2.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_7</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_1</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>3.</ChapterNo>
-            <ChapterName>設定項目の変更</ChapterName>
+            <ChapterName>Java API</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>3.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_8</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_2</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_3</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_4</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_5</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.4.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_6</ChapterCategoryRefKey>
+                </ChildChapter>
             </ChildChapter>
             <ChildChapter>
                 <ChildCapterNo>3.2.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_9</ChapterCategoryRefKey>
-                <ChildChapter>
-                    <ChildCapterNo>3.2.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>3.2.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
-                </ChildChapter>
-            </ChildChapter>
-            <ChildChapter>
-                <ChildCapterNo>3.3.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_12</ChapterCategoryRefKey>
-                <ChildChapter>
-                    <ChildCapterNo>3.3.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_13</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>3.3.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_14</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>3.3.3.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_15</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>3.3.4.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_16</ChapterCategoryRefKey>
-                </ChildChapter>
-            </ChildChapter>
-            <ChildChapter>
-                <ChildCapterNo>3.4.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_17</ChapterCategoryRefKey>
-                <ChildChapter>
-                    <ChildCapterNo>3.4.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_18</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>3.4.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_19</ChapterCategoryRefKey>
-                </ChildChapter>
+                <ChapterCategoryRefKey>category_7</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>4.</ChapterNo>
-            <ChapterName>その他</ChapterName>
+            <ChapterName>設定項目の変更</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>4.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_20</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_8</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
                 <ChildCapterNo>4.2.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_9</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>4.2.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>4.2.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>4.3.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_12</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>4.3.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_13</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>4.3.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_14</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>4.3.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_15</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>4.3.4.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_16</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>4.4.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_17</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>4.4.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_18</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>4.4.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_19</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>4.5.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_23</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>5.</ChapterNo>
+            <ChapterName>その他</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>5.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_20</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>5.2.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_21</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
     </ChapterList>
     <CategoryList>
+        <Category categoryId="category_22" appropriate="false">
+            <CategoryName>本ドキュメントについて</CategoryName>
+            <KnowhowRefKey>knowhow_21</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_24" appropriate="false">
+            <CategoryName>Javaバージョンについて</CategoryName>
+            <KnowhowRefKey>knowhow_23</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_25" appropriate="true">
+            <CategoryName>設定ファイルについて</CategoryName>
+            <KnowhowRefKey>knowhow_24</KnowhowRefKey>
+        </Category>
         <Category categoryId="category_1" appropriate="true">
             <CategoryName>Java7必須</CategoryName>
             <KnowhowRefKey>knowhow_1</KnowhowRefKey>
@@ -252,8 +296,24 @@
             <CategoryName>内部APIの変更</CategoryName>
             <KnowhowRefKey>knowhow_18</KnowhowRefKey>
         </Category>
+        <Category categoryId="category_23" appropriate="false">
+            <CategoryName>CredentialHandlerの追加</CategoryName>
+            <KnowhowRefKey>knowhow_22</KnowhowRefKey>
+        </Category>
     </CategoryList>
     <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_21" knowhowDetailRefKey="knowhowDetail_21">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>本ドキュメントについて</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_23" knowhowDetailRefKey="knowhowDetail_23">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>Javaバージョンについて</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_24" knowhowDetailRefKey="knowhowDetail_24">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>設定ファイルについて</KnowhowName>
+        </KnowhowInfomation>
         <KnowhowInfomation knowhowId="knowhow_1" knowhowDetailRefKey="knowhowDetail_1">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>Java7必須</KnowhowName>
@@ -3524,265 +3584,364 @@
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>内部APIの変更</KnowhowName>
         </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_22" knowhowDetailRefKey="knowhowDetail_22">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>CredentialHandlerの追加</KnowhowName>
+        </KnowhowInfomation>
     </KnowhowList>
     <DocBookList>
         <DocBook articleId="knowhowDetail_1">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Java7必須</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>Tomcat8.0は、Java7以降が必須となる。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Java7必須</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Tomcat8.0は、Java7以降が必須となる。</ns3:para>
+                    <ns3:para>古いバージョンのJavaを利用している場合はアップデートを行う必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_2">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Servletの非推奨APIについて</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns2:para>
-                    <ns2:para>http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Servletの非推奨APIについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns3:para>
+                    <ns3:para>
+                        <ns3:command ns2:href="http://docs.oracle.com/javaee/7/api/deprecated-list.html">http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns3:command>
+                    </ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_3">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>JSPの非推奨APIについて</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns2:para>
-                    <ns2:para>http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>JSPの非推奨APIについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns3:para>
+                    <ns3:para>
+                        <ns3:command ns2:href="http://docs.oracle.com/javaee/7/api/deprecated-list.html">http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns3:command>
+                    </ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_4">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>ELの非推奨APIについて</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns2:para>
-                    <ns2:para>http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>ELの非推奨APIについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns3:para>
+                    <ns3:para>
+                        <ns3:command ns2:href="http://docs.oracle.com/javaee/7/api/deprecated-list.html">http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns3:command>
+                    </ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_5">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Servlet、JSP以外の非推奨APIについて</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns2:para>
-                    <ns2:para>http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Servlet、JSP、EL以外の非推奨APIについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>チェック対象は非推奨となったAPIである。以下のドキュメントを参照して、代替APIを利用するように変更する。</ns3:para>
+                    <ns3:para>
+                        <ns3:command ns2:href="http://docs.oracle.com/javaee/7/api/deprecated-list.html">http://docs.oracle.com/javaee/7/api/deprecated-list.html</ns3:command>
+                    </ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_6">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Servlet 3.1 API</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>ワイルドカード (*) のimport構文を使用するJSPページでは、Servlet APIに追加された新しいクラスとWebアプリケーションに含まれるクラスが競合する可能性がある。</ns2:para>
-                    <ns2:para>例えば、パッケージ &quot;a&quot; にReadListenerクラスが含まれている場合、以下のJSPページはTomcat8でコンパイルできなくなる。</ns2:para>
-                    <ns2:programlisting>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Servlet 3.1 API</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>ワイルドカード (*) のimport構文を使用するJSPページでは、Servlet APIに追加された新しいクラスとWebアプリケーションに含まれるクラスが競合する可能性がある。</ns3:para>
+                    <ns3:para>例えば、パッケージ &quot;a&quot; にReadListenerクラスが含まれている場合、以下のJSPページはTomcat8でコンパイルできなくなる。</ns3:para>
+                    <ns3:programlisting>
 
 &lt;%@page import=&quot;a.*&quot;%&gt;
 &lt;% ReadListener listener = new ReadListener(); %&gt;
 
-</ns2:programlisting>
-                    <ns2:para>これは、javax.servlet.*の暗黙的なimportとa.*の明示的なimportにおいて、Servlet3.1で追加されたReadListenerクラスの定義の競合するために発生する問題である。</ns2:para>
-                    <ns2:para>Tomcatは、JSPからServletファイル（.java）へのコンパイルの際、デフォルトのimportとして &quot;javax.servlet.*&quot;、&quot;javax.servlet.http.*&quot;、&quot;javax.servlet.jsp.*&quot; を設定するため、JSPにおいてワイルドカードのimport文を使用すると、Servlet3.1で追加されたクラスと衝突してしまう。</ns2:para>
-                    <ns2:para>この問題を解決するには、明示的なimport (この例では、import=&quot;a.ReadListener&quot;) を利用する必要がある。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+</ns3:programlisting>
+                    <ns3:para>これは、javax.servlet.*の暗黙的なimportとa.*の明示的なimportにおいて、Servlet3.1で追加されたReadListenerクラスの定義の競合するために発生する問題である。</ns3:para>
+                    <ns3:para>Tomcatは、JSPからServletファイル（.java）へのコンパイルの際、デフォルトのimportとして &quot;javax.servlet.*&quot;、&quot;javax.servlet.http.*&quot;、&quot;javax.servlet.jsp.*&quot; を設定するため、JSPにおいてワイルドカードのimport文を使用すると、Servlet3.1で追加されたクラスと衝突してしまう。</ns3:para>
+                    <ns3:para>この問題を解決するには、明示的なimport (この例では、import=&quot;a.ReadListener&quot;) を利用する必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_7">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>デフォルトコネクタ</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>デフォルトのHTTP/AJPコネクタ実装はBIO (Java blocking IO implementation) コネクタから NIO (Java non-blocking IO implementation) コネクタに変更されている。</ns2:para>
-                    <ns2:para>BIOコネクタとNIOコネクタの違いについては、次のURLを参照すること。</ns2:para>
-                    <ns2:para>http://tomcat.apache.org/tomcat-8.0-doc/config/http.html</ns2:para>
-                    <ns2:para>http://tomcat.apache.org/tomcat-8.0-doc/config/ajp.html</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>デフォルトコネクタ</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>デフォルトのHTTP/AJPコネクタ実装はBIO (Java blocking IO implementation) コネクタから NIO (Java non-blocking IO implementation) コネクタに変更されている。</ns3:para>
+                    <ns3:para>BIOコネクタとNIOコネクタの違いについては、次のURLを参照すること。</ns3:para>
+                    <ns3:para>
+                        <ns3:command ns2:href="http://tomcat.apache.org/tomcat-8.0-doc/config/http.html">http://tomcat.apache.org/tomcat-8.0-doc/config/http.html</ns3:command>
+                    </ns3:para>
+                    <ns3:para>
+                        <ns3:command ns2:href="http://tomcat.apache.org/tomcat-8.0-doc/config/ajp.html">http://tomcat.apache.org/tomcat-8.0-doc/config/ajp.html</ns3:command>
+                    </ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_8">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Context要素の属性</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>Context要素で指定していた以下の属性はResources要素で指定する。</ns2:para>
-                    <ns2:itemizedlist>
-                        <ns2:listitem>
-                            <ns2:para>allowLinking</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>cachingAllowd</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>cacheMaxSize</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>cacheObjectMaxSize</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>cacheTTL</ns2:para>
-                        </ns2:listitem>
-                    </ns2:itemizedlist>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Context要素の属性</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Context要素で指定していた以下の属性はResources要素で指定する。</ns3:para>
+                    <ns3:itemizedlist>
+                        <ns3:listitem>
+                            <ns3:para>allowLinking</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>cachingAllowd</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>cacheMaxSize</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>cacheObjectMaxSize</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>cacheTTL</ns3:para>
+                        </ns3:listitem>
+                    </ns3:itemizedlist>
+                    <ns3:para>例として、Tomcat7とTomcat8の設定例を以下に示す。</ns3:para>
+                    <ns3:programlisting>
+&lt;!-- Tomcat 7: --&gt;
+&lt;Context allowLinking=&quot;true&quot; /&gt;
+
+&lt;!-- Tomcat 8: --&gt;
+&lt;Context&gt;
+&lt;Resources allowLinking=&quot;true&quot; /&gt;
+&lt;/Context&gt;
+		</ns3:programlisting>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_9">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Resoucesの指定方法変更</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>Aliases、VirtualLoader、VirtualDirContext、External repositories、JAR resourcesはResources要素の子要素（PreResources、PostResources、JarResources）で指定する。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Resoucesの指定方法変更</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Aliases、VirtualLoader、VirtualDirContext、External
+			repositories、JAR
+			resourcesはResources要素の子要素（PreResources、PostResources、JarResources）で指定する。
+		</ns3:para>
+                    <ns3:para>新たな実装の使用方法については以下のドキュメントで提供されている。</ns3:para>
+                    <ns3:para>
+			<ns3:command ns2:href="http://tomcat.apache.org/tomcat-8.0-doc/config/resources.html">http://tomcat.apache.org/tomcat-8.0-doc/config/resources.html
+			</ns3:command>
+		</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_10">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>DBCPバージョンアップ</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>DBCPが2.0にバージョンアップした。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>DBCPバージョンアップ</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>DBCPが2.0にバージョンアップした。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_11">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>JDBCドライバのバージョン</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>JDBCドライバはバージョン4.1に対応したものが必須となる。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>JDBCドライバのバージョン</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>JDBCドライバはバージョン4.1に対応したものが必須となる。</ns3:para>
+                    <ns3:para>古いバージョンを利用している場合はアップデートを行う必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_12">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>設定項目の変更</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>以下の設定項目名が変更となった。</ns2:para>
-                    <ns2:itemizedlist>
-                        <ns2:listitem>
-                            <ns2:para>maxWaitはmaxWaitMillisに変更</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>maxActiveはmaxTotalに変更</ns2:para>
-                        </ns2:listitem>
-                    </ns2:itemizedlist>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>設定項目の変更</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>以下の設定項目名が変更となった。</ns3:para>
+                    <ns3:itemizedlist>
+                        <ns3:listitem>
+                            <ns3:para>maxWaitはmaxWaitMillisに変更</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>maxActiveはmaxTotalに変更</ns3:para>
+                        </ns3:listitem>
+                    </ns3:itemizedlist>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_13">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>JDBCドライバ配置場所</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>JDBCドライバが特定のWeb アプリケーションでのみ使用される場合は、$CATALINA_BASE/lib ではなく、WEB-INF/lib に配置する。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>JDBCドライバ配置場所</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>JDBCドライバが特定のWeb アプリケーションでのみ使用される場合は、$CATALINA_BASE/lib ではなく、WEB-INF/lib に配置する。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_14">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Validation方式の変更</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>以前のバージョンではvalidationQueryとtestXxxの両方が設定されていないとConnectionの検証が行われなかった。</ns2:para>
-                    <ns2:para>DBCP2.0からはいずれかのtestXxxがtrueになっていれば検証が行われる。この時、Connection.isValid()を使用して検証が行われる。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Validation方式の変更</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>以前のバージョンではvalidationQueryとtestXxxの両方が設定されていないとConnectionの検証が行われなかった。</ns3:para>
+                    <ns3:para>DBCP2.0からはいずれかのtestXxxがtrueになっていれば検証が行われる。この時、validationQueryが定義されていない場合は、Connection.isValid()を使用して検証が行われる。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_15">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>セッションID変更</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>Servlet 3.1でのHttpServletRequest.changeSessionId()メソッドの追加により、org.apache.catalina.ha.session.JvmRouteSessionIDBinderListenerは不要になり、削除された。</ns2:para>
-                    <ns2:para>Tomcat8へのアップグレード時にはクラスタ設定からJvmRouteSessionIDBinderListenerを削除する必要がある。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>セッションID変更</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Servlet 3.1でのHttpServletRequest.changeSessionId()メソッドの追加により、org.apache.catalina.ha.session.JvmRouteSessionIDBinderListenerは不要になり、削除された。</ns3:para>
+                    <ns3:para>Tomcat8へのアップグレード時にはクラスタ設定からJvmRouteSessionIDBinderListenerを削除する必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_16">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>SessionIdGeneratorの追加</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>セッションIDの生成を拡張可能にするための新たなインタフェースSessionIdGeneratorが追加された。</ns2:para>
-                    <ns2:para>SessionIdGeneratorの追加に伴い、ManagerのsessionIdLength属性とManager.getSessionIdLength()およびManager.setSessionIdLength(int)は非推奨となった。</ns2:para>
-                    <ns2:para>セッションID長のコンフィグレーションを使用している場合はSessionIdGenerator要素のsessionIdLength属性を使用する。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>SessionIdGeneratorの追加</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>セッションIDの生成を拡張可能にするための新たなインタフェースSessionIdGeneratorが追加された。</ns3:para>
+                    <ns3:para>SessionIdGeneratorの追加に伴い、ManagerのsessionIdLength属性とManager.getSessionIdLength()およびManager.setSessionIdLength(int)は非推奨となった。</ns3:para>
+                    <ns3:para>セッションID長のコンフィグレーションを使用している場合はSessionIdGenerator要素のsessionIdLength属性を使用する。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_17">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Debug用ポート</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>jpdaオプション付きで起動した場合、従来は*:8000で待ち受けていたが、localhost:8000に変更となった。</ns2:para>
-                    <ns2:para>値を変更したい場合は、setenvスクリプトなどを使用して環境変数JPDA_ADDRESSに設定することで上書き可能です。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Debug用ポート</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>リモートデバッグを有効にするためにjpda オプションを指定して起動した場合、従来は*:8000で待ち受けていたが、localhost:8000に変更となった。</ns3:para>
+                    <ns3:para>値を変更したい場合は、setenvスクリプトなどを使用して環境変数JPDA_ADDRESSに設定することで上書き可能である。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_18">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>内部APIの変更</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>内部APIが以下のように変更された。</ns2:para>
-                    <ns2:itemizedlist>
-                        <ns2:listitem>
-                            <ns2:para>Manager、Loader、ResourcesがContainerからContextに移動</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>MapperがConnectorからServiceに移動</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>各機能を分離するのではなく、単一のフレームワークとしてAliases、VirtualLoader、Virtual、DirContext、JAR resourcesおよびexternal repositoriesをマージするためのResourcesが新たに実装</ns2:para>
-                        </ns2:listitem>
-                    </ns2:itemizedlist>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>内部APIの変更</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>内部APIが以下のように変更された。</ns3:para>
+                    <ns3:itemizedlist>
+                        <ns3:listitem>
+                            <ns3:para>Manager、Loader、ResourcesがContainerからContextに移動</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>MapperがConnectorからServiceに移動</ns3:para>
+                        </ns3:listitem>
+                        <ns3:listitem>
+                            <ns3:para>各機能を分離するのではなく、単一のフレームワークとしてAliases、VirtualLoader、Virtual、DirContext、JAR resourcesおよびexternal repositoriesをマージするためのResourcesが新たに実装</ns3:para>
+                        </ns3:listitem>
+                    </ns3:itemizedlist>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_19">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>非推奨API</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>Tomcat8.0は、Servlet 3.1、JSP2.3、EL3.0およびWebSocket1.1仕様をサポートしている。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>非推奨API</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Tomcat8.0は、Servlet 3.1、JSP2.3、EL3.0およびWebSocket1.1仕様をサポートしている。</ns3:para>
+                    <ns3:para>
+            <ns3:command ns2:href="http://tomcat.apache.org/whichversion.html">http://tomcat.apache.org/whichversion.html</ns3:command>
+        </ns3:para>
+                    <ns3:para>これらの仕様で非推奨となったAPIを利用している場合は代替APIを利用するように変更する必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_20">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>Web Application Resources</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>古いバージョンで使用されていたAliases、VirtualLoader、VirtualDirContext、外部Repositories、JAR resourcesなどの機能は単一のResourcesとしてリファクタリングされた。</ns2:para>
-                </ns2:section>
-            </ns2:article>
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Web Application Resources</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>古いバージョンで使用されていたAliases、VirtualLoader、VirtualDirContext、外部Repositories、JAR resources などの機能は単一のResourcesとしてリファクタリングされた。</ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_21">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>本ドキュメントについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>本マイグレーションガイドはTomcat間（7.0-8.0）のマイグレーション時に注意すべき項目について整理したものである。</ns3:para>
+                    <ns3:para>本内容はTomcatコミュニティのMigration Guideの情報を参考に作成している。</ns3:para>
+                    <ns3:para>
+            <ns3:command ns2:href="http://tomcat.apache.org/migration.html">http://tomcat.apache.org/migration.html</ns3:command>
+        </ns3:para>
+                    <ns3:para>
+            <ns3:command ns2:href="http://tomcat.apache.org/migration-8.html">http://tomcat.apache.org/migration-8.html</ns3:command>
+        </ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_22">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>CredentialHandlerの追加</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>提供されたパスワードとRealmが格納したパスワードを比較するための新たなインタフェースCredentialHandler
+			が追加された。</ns3:para>
+                    <ns3:para>CredentialHandler の追加に伴い、Realm のdigest 属性は非推奨になった。
+		</ns3:para>
+                    <ns3:para>ダイジェスト化されたパスワードを使用している場合は、&lt;Realm&gt;の子要素に&lt;CredentialHandler&gt;
+			を定義する必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_23">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Javaバージョンについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Apache Tomcatのあるメジャーバージョンから新しいバージョンのものへアップデートをするとき、システムにインストールされているJVMが必要なJavaバージョンをサポートしていることを確認する必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_24">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>設定ファイルについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Apache Tomcatのあるメジャーバージョンから他のバージョンへマイグレーション（例：Tomcat
+			7からTomcat 8）するとき、古いバージョンの設定ファイルをむやみにコピーすべきではありません。</ns3:para>
+                    <ns3:para>推奨されているアプローチはApache
+			Tomcatの新しいバージョンのデフォルト設定ファイルを必要に応じて修正する方法である。</ns3:para>
+                    <ns3:para/>
+                    <ns3:para>本ドキュメントでは対象外であるが、同じメジャーバージョン内であるマイナーバージョンから別のマイナーバージョンへマイグレーション（例；Tomcat 7.0.14からTomcat 7.0.16）するとき、設定ファイルは再利用することが可能である。</ns3:para>
+                    <ns3:para>しかし、デフォルト値が変更されていないか、また、新たな要素が追加されていないかを確認するべきである。</ns3:para>
+                    <ns3:para>確認結果に応じて設定ファイルを修正するべきである。</ns3:para>
+                </ns3:section>
+            </ns3:article>
         </DocBook>
     </DocBookList>
     <SearchInfomationList>
