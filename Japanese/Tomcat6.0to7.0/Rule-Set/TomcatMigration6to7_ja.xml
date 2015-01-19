@@ -3,6 +3,15 @@
     <PortabilityKnowhowTitle>Tomcat6.0.xから7.0.xへのマイグレーションガイド</PortabilityKnowhowTitle>
     <EntryViewList>
         <EntryCategory>
+            <EntryCategoryRefKey>category_43</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_44</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_45</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
             <EntryCategoryRefKey>category_13</EntryCategoryRefKey>
         </EntryCategory>
         <EntryCategory>
@@ -102,220 +111,257 @@
     <ChapterList>
         <Chapter>
             <ChapterNo>1.</ChapterNo>
-            <ChapterName>Java6必須</ChapterName>
+            <ChapterName>はじめに</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>1.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_13</ChapterCategoryRefKey>
-            </ChildChapter>
-            <ChildChapter>
-                <ChildCapterNo>1.2.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_9</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_43</ChapterCategoryRefKey>
                 <ChildChapter>
-                    <ChildCapterNo>1.2.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
+                    <ChildCapterNo>1.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_44</ChapterCategoryRefKey>
                 </ChildChapter>
                 <ChildChapter>
-                    <ChildCapterNo>1.2.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>1.2.3.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_12</ChapterCategoryRefKey>
+                    <ChildCapterNo>1.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_45</ChapterCategoryRefKey>
                 </ChildChapter>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>2.</ChapterNo>
-            <ChapterName>Servlet 3.0 API</ChapterName>
+            <ChapterName>Java API 関連</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>2.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_14</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_13</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>3.</ChapterNo>
-            <ChapterName>正規表現</ChapterName>
+            <ChapterName>Java6必須</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>3.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_15</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_13</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>3.2.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_9</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>3.2.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.2.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.2.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_12</ChapterCategoryRefKey>
+                </ChildChapter>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>4.</ChapterNo>
-            <ChapterName>デプロイメント</ChapterName>
+            <ChapterName>Servlet 3.0 API</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>4.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_16</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_14</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>5.</ChapterNo>
-            <ChapterName>Managerアプリケーション</ChapterName>
+            <ChapterName>正規表現</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>5.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_40</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_15</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>6.</ChapterNo>
-            <ChapterName>Host Managerアプリケーション</ChapterName>
+            <ChapterName>デプロイメント</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>6.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_17</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_16</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>7.</ChapterNo>
-            <ChapterName>Session Managerコンフィグレーション</ChapterName>
+            <ChapterName>Managerアプリケーション</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>7.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_18</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_40</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>8.</ChapterNo>
-            <ChapterName>Session Cookieコンフィグレーション</ChapterName>
+            <ChapterName>Host Managerアプリケーション</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>8.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_19</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_17</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>9.</ChapterNo>
-            <ChapterName>Cookies</ChapterName>
+            <ChapterName>Session Managerコンフィグレーション</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>9.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_20</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_18</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>10.</ChapterNo>
-            <ChapterName>Request属性</ChapterName>
+            <ChapterName>Session Cookieコンフィグレーション</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>10.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_21</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_19</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>11.</ChapterNo>
-            <ChapterName>Comet</ChapterName>
+            <ChapterName>Cookies</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>11.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_22</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_20</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>12.</ChapterNo>
-            <ChapterName>XMLバリデーション</ChapterName>
+            <ChapterName>Request属性</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>12.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_23</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_21</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>13.</ChapterNo>
-            <ChapterName>システムプロバティ</ChapterName>
+            <ChapterName>Comet</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>13.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_24</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_22</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>14.</ChapterNo>
-            <ChapterName>conf/web.xmlファイル処理</ChapterName>
+            <ChapterName>XMLバリデーション</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>14.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_25</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_23</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>15.</ChapterNo>
-            <ChapterName>Welcomeファイル処理</ChapterName>
+            <ChapterName>システムプロバティ</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>15.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_26</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_24</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>16.</ChapterNo>
-            <ChapterName>アノテーション・スキャン</ChapterName>
+            <ChapterName>conf/web.xmlファイル処理</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>16.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_28</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_25</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>17.</ChapterNo>
-            <ChapterName>TLD処理</ChapterName>
+            <ChapterName>Welcomeファイル処理</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>17.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_29</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_26</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>18.</ChapterNo>
-            <ChapterName>内部API</ChapterName>
+            <ChapterName>アノテーション・スキャン</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>18.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_30</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_28</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>19.</ChapterNo>
-            <ChapterName>JSPコンパイラ</ChapterName>
+            <ChapterName>TLD処理</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>19.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_31</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_29</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
         <Chapter>
             <ChapterNo>20.</ChapterNo>
-            <ChapterName>その他注意点</ChapterName>
+            <ChapterName>内部API</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>20.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_30</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>21.</ChapterNo>
+            <ChapterName>JSPコンパイラ</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>21.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_31</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>22.</ChapterNo>
+            <ChapterName>その他注意点</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>22.1.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_32</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.2.</ChildCapterNo>
+                <ChildCapterNo>22.2.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_33</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.3.</ChildCapterNo>
+                <ChildCapterNo>22.3.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_34</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.4.</ChildCapterNo>
+                <ChildCapterNo>22.4.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_35</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.5.</ChildCapterNo>
+                <ChildCapterNo>22.5.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_36</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.6.</ChildCapterNo>
+                <ChildCapterNo>22.6.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_37</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.7.</ChildCapterNo>
+                <ChildCapterNo>22.7.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_38</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.8.</ChildCapterNo>
+                <ChildCapterNo>22.8.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_39</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
-                <ChildCapterNo>20.9.</ChildCapterNo>
+                <ChildCapterNo>22.9.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_41</ChapterCategoryRefKey>
             </ChildChapter>
         </Chapter>
     </ChapterList>
     <CategoryList>
+        <Category categoryId="category_43" appropriate="false">
+            <CategoryName>本ドキュメントについて</CategoryName>
+            <KnowhowRefKey>knowhow_40</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_44" appropriate="false">
+            <CategoryName>Javaバージョンについて</CategoryName>
+            <KnowhowRefKey>knowhow_41</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_45" appropriate="true">
+            <CategoryName>設定ファイルについて</CategoryName>
+            <KnowhowRefKey>knowhow_42</KnowhowRefKey>
+        </Category>
         <Category categoryId="category_13" appropriate="true">
             <CategoryName>Java6必須</CategoryName>
             <KnowhowRefKey>knowhow_11</KnowhowRefKey>
         </Category>
         <Category categoryId="category_9" appropriate="true">
-            <CategoryName>J2EE非推奨API</CategoryName>
+            <CategoryName>非推奨API</CategoryName>
+            <KnowhowRefKey>knowhow_43</KnowhowRefKey>
         </Category>
         <Category categoryId="category_10" appropriate="true">
             <CategoryName>Servlet非推奨API</CategoryName>
@@ -439,9 +485,25 @@
         </Category>
     </CategoryList>
     <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_40" knowhowDetailRefKey="knowhowDetail_40">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>本ドキュメントについて</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_41" knowhowDetailRefKey="knowhowDetail_41">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>Javaバージョンについて</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_42" knowhowDetailRefKey="knowhowDetail_42">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>設定ファイルについて</KnowhowName>
+        </KnowhowInfomation>
         <KnowhowInfomation knowhowId="knowhow_11" knowhowDetailRefKey="knowhowDetail_11">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>Java6必須</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_43" knowhowDetailRefKey="knowhowDetail_43">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>非推奨API</KnowhowName>
         </KnowhowInfomation>
         <KnowhowInfomation knowhowId="knowhow_9" knowhowDetailRefKey="knowhowDetail_9">
             <KnowhowNo>1</KnowhowNo>
@@ -3601,14 +3663,14 @@
                     <ns3:title>Servlet、JSP以外の非推奨APIについて</ns3:title>
                 </ns3:info>
                 <ns3:section>
-                    <ns3:para>Servlet、JSP以外にも、非推奨となっているAPIを利用している場合は、代替となるAPIを利用するように修正する必要がある。</ns3:para>
+                    <ns3:para>Servlet、JSP以外にも、非推奨となっているAPIを利用している場合は、代替となるAPIを利用するように修正する必要がある。
+		</ns3:para>
                     <ns3:para>詳細は下記URLを参照のこと。</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
-                            <ns3:para>http://docs.oracle.com/javaee/6/api/</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>http://docs.oracle.com/javaee/6/api/deprecated-list.html</ns3:para>
+                            <ns3:para>
+					<ns3:command ns2:href="http://docs.oracle.com/javaee/6/api/deprecated-list.html">http://docs.oracle.com/javaee/6/api/deprecated-list.html</ns3:command>
+				</ns3:para>
                         </ns3:listitem>
                     </ns3:itemizedlist>
                 </ns3:section>
@@ -3621,7 +3683,8 @@
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>Tomcat7.0は、Servlet3.0仕様をサポートしている。</ns3:para>
-                    <ns3:para>以下は、Servlet3.0で非推奨となったAPIの一覧であり、これらのAPIを利用している場合には、代替となるAPIを利用するように修正する必要がある。</ns3:para>
+                    <ns3:para>以下は、Servlet3.0で非推奨となったAPIの一覧であり、これらのAPIを利用している場合には、代替となるAPIを利用するように修正する必要がある。
+		</ns3:para>
                     <ns3:para>推奨されていないインタフェース</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
@@ -3640,31 +3703,40 @@
                     <ns3:para>推奨されていないメソッド</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletRequest.isRequestedSessionIdFromUrl()</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletRequest.isRequestedSessionIdFromUrl()
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdFromUrl()</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletRequestWrapper.isRequestedSessionIdFromUrl()
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletResponse.encodeRedirectUrl(String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletResponse.encodeRedirectUrl(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletResponse.encodeUrl(String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletResponse.encodeUrl(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletResponse.setStatus(int, String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletResponse.setStatus(int,
+					String)</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletResponseWrapper.encodeRedirectUrl(String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletResponseWrapper.encodeRedirectUrl(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletResponseWrapper.encodeUrl(String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletResponseWrapper.encodeUrl(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpServletResponseWrapper.setStatus(int, String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpServletResponseWrapper.setStatus(int,
+					String)</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpSession.getSessionContext()</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpSession.getSessionContext()
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
                             <ns3:para>javax.servlet.http.HttpSession.getValue(String)</ns3:para>
@@ -3673,16 +3745,19 @@
                             <ns3:para>javax.servlet.http.HttpSession.getValueNames()</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpSession.putValue(String, Object)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpSession.putValue(String, Object)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpSession.removeValue(String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpSession.removeValue(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
                             <ns3:para>javax.servlet.http.HttpSessionContext.getIds()</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.http.HttpSessionContext.getSession(String)</ns3:para>
+                            <ns3:para>javax.servlet.http.HttpSessionContext.getSession(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
                             <ns3:para>javax.servlet.ServletContext.getServlet(String)</ns3:para>
@@ -3694,13 +3769,16 @@
                             <ns3:para>javax.servlet.ServletContext.getServlets()</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.ServletContext.log(Exception, String)</ns3:para>
+                            <ns3:para>javax.servlet.ServletContext.log(Exception, String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.ServletRequest.getRealPath(String)</ns3:para>
+                            <ns3:para>javax.servlet.ServletRequest.getRealPath(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.ServletRequestWrapper.getRealPath(String)</ns3:para>
+                            <ns3:para>javax.servlet.ServletRequestWrapper.getRealPath(String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
                             <ns3:para>javax.servlet.UnavailableException.getServlet()</ns3:para>
@@ -3709,10 +3787,21 @@
                     <ns3:para>推奨されていないコンストラクタ</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.UnavailableException(int, Servlet, String)</ns3:para>
+                            <ns3:para>javax.servlet.UnavailableException(int, Servlet, String)
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.UnavailableException(Servlet, String)</ns3:para>
+                            <ns3:para>javax.servlet.UnavailableException(Servlet, String)
+				</ns3:para>
+                        </ns3:listitem>
+                    </ns3:itemizedlist>
+                    <ns3:para>詳細は下記URLを参照のこと。</ns3:para>
+                    <ns3:itemizedlist>
+                        <ns3:listitem>
+                            <ns3:para>
+					<ns3:command ns2:href="http://docs.oracle.com/javaee/6/api/deprecated-list.html">http://docs.oracle.com/javaee/6/api/deprecated-list.html
+					</ns3:command>
+				</ns3:para>
                         </ns3:listitem>
                     </ns3:itemizedlist>
                 </ns3:section>
@@ -3725,7 +3814,8 @@
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>Tomcat7.0は、JSP2.2仕様をサポートしている。</ns3:para>
-                    <ns3:para>以下は、JSP2.2で非推奨となったAPIの一覧であり、これらAPIを利用している場合には、代替となるAPIを利用するように修正する必要がある。</ns3:para>
+                    <ns3:para>以下は、JSP2.2で非推奨となったAPIの一覧であり、これらAPIを利用している場合には、代替となるAPIを利用するように修正する必要がある。
+		</ns3:para>
                     <ns3:para>推奨されていないインタフェース</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
@@ -3762,13 +3852,24 @@
                     <ns3:para>推奨されていないメソッド</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.jsp.JspContext.getExpressionEvaluator()</ns3:para>
+                            <ns3:para>javax.servlet.jsp.JspContext.getExpressionEvaluator()
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>javax.servlet.jsp.JspContext.getVariableResolver()</ns3:para>
+                            <ns3:para>javax.servlet.jsp.JspContext.getVariableResolver()
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
                             <ns3:para>javax.servlet.jsp.JspContext.getRootCause()</ns3:para>
+                        </ns3:listitem>
+                    </ns3:itemizedlist>
+                    <ns3:para>詳細は下記URLを参照のこと。</ns3:para>
+                    <ns3:itemizedlist>
+                        <ns3:listitem>
+                            <ns3:para>
+					<ns3:command ns2:href="http://docs.oracle.com/javaee/6/api/deprecated-list.html">http://docs.oracle.com/javaee/6/api/deprecated-list.html
+					</ns3:command>
+				</ns3:para>
                         </ns3:listitem>
                     </ns3:itemizedlist>
                 </ns3:section>
@@ -3781,7 +3882,7 @@
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>Tomcat7.0は、実行環境としてJava6以降が必須となる。</ns3:para>
-                    <ns3:para>古いバージョンを利用している場合はアップデートを行うこと。</ns3:para>
+                    <ns3:para>古いバージョンのJavaを利用している場合はアップデートを行う必要がある。</ns3:para>
                 </ns3:section>
             </ns3:article>
         </DocBook>
@@ -3811,20 +3912,42 @@
                     <ns3:title>正規表現</ns3:title>
                 </ns3:info>
                 <ns3:section>
-                    <ns3:para>正規表現を使用するすべての設定オプションは、コンマあるいはセミコロン区切りのリストではなく、単一の正規表現（java.util.regex を利用）を用いて指定する必要がある。</ns3:para>
+                    <ns3:para>正規表現を使用するすべての設定オプションは、コンマあるいはセミコロン区切りのリストではなく、単一の正規表現（java.util.regex
+			を利用）を用いて指定する必要がある。
+		</ns3:para>
                     <ns3:para>以下の属性が関係するため、正規表現を見直す必要がある。</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
-                            <ns3:para>RemoteAddrFilter、RemoteHostFilter、RemoteAddrValve、RemoteHostValveのallow属性とdeny属性</ns3:para>
+                            <ns3:para>
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#Remote_Address_Filter">RemoteAddrFilter</ns3:command>
+					、
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#Remote_Host_Filter">RemoteHostFilter</ns3:command>
+					と
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/valve.html#Remote_Address_Filter">RemoteAddrValve</ns3:command>
+					、
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/valve.html#Remote_Host_Filter">RemoteHostValve</ns3:command>
+					のallow属性とdeny属性
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>RemoteIpFilter、RemoteIpValveのinternalProxies属性とtrustedProxies属性</ns3:para>
+                            <ns3:para>
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#Remote_IP_Filter">RemoteIpFilter</ns3:command>
+					、
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/valve.html#Remote_IP_Valvel">RemoteIpValve</ns3:command>
+					のinternalProxies属性とtrustedProxies属性
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>ReplicationValveのfilter属性</ns3:para>
+                            <ns3:para>
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/cluster-valve.html#org.apache.catalina.ha.tcp.ReplicationValve">ReplicationValve</ns3:command>
+					のfilter属性
+				</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>HTTP ConnectorのrestrictedUserAgents属性とnoCompressionUserAgents属性</ns3:para>
+                            <ns3:para>
+					<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/http.html">HTTP Connector</ns3:command>
+					のrestrictedUserAgents属性とnoCompressionUserAgents属性
+				</ns3:para>
                         </ns3:listitem>
                     </ns3:itemizedlist>
                     <ns3:para>また、「|」演算子を用いて、個別の正規表現を連結することが可能である。</ns3:para>
@@ -3923,23 +4046,22 @@
                     <ns3:title>Session Cookieコンフィグレーション</ns3:title>
                 </ns3:info>
                 <ns3:section>
-                    <ns3:para>Servlet 3.0仕様におけるSessionCookieConfigの追加により、コンフィグレーションおよびコードの複雑さを軽減するために、多くのSession Cookie設定オプションは削除された。</ns3:para>
+                    <ns3:para>Servlet 3.0仕様におけるSessionCookieConfigの追加により、コンフィグレーションおよびコードの複雑さを軽減するために、いくつかのSession Cookie設定オプションは削除された。</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
-                            <ns3:para>ConnectorのemptySessionPath属性は削除。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookiePath=&quot;/&quot;を設定することによって、同等の効果が得られる</ns3:para>
+                            <ns3:para>ConnectorのemptySessionPath：本属性は削除された。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookiePath=&quot;/&quot;を設定することによって、同等の結果を得ることが可能</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>org.apache.catalina.SESSION_COOKIE_NAME システムプロパティは削除。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookieName属性を設定することによって、同等の効果が得られる</ns3:para>
+                            <ns3:para>org.apache.catalina.SESSION_COOKIE_NAME システムプロパティ：本プロパティは削除された。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookieName属性を設定することによって、同等の結果を得ることが可能</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>org.apache.catalina.SESSION_PARAMETER_NAME システムプロパティは削除。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookieName属性を設定することによって、同等の効果が得られる</ns3:para>
+                            <ns3:para>org.apache.catalina.SESSION_PARAMETER_NAME システムプロパティ：本プロパティは削除された。$CATALINA_BASE/conf/context.xmlにおいて、sessionCookieName属性を設定することによって、同等の結果を得ることが可能</ns3:para>
                         </ns3:listitem>
                         <ns3:listitem>
-                            <ns3:para>ContextのdisableURLRewriting属性は削除。Webアプリケーションあるいは$CATALINA_BASE/conf/web.xmlにおいて、&lt;session-config&gt;&lt;tracking-mode&gt; 要素を設定することによって、同等の効果が得られる</ns3:para>
+                            <ns3:para>ContextのdisableURLRewriting：本属性は削除された。Webアプリケーションあるいは$CATALINA_BASE/conf/web.xmlにおいて、&lt;session-config&gt;&lt;tracking-mode&gt; 要素を設定することによって、同等の結果を得ることが可能</ns3:para>
                         </ns3:listitem>
                     </ns3:itemizedlist>
-                    <ns3:para>Tomcat7のセッションおよびSSO Cookieは、JavaScriptからのアクセスを防ぐために、デフォルトでHttpOnlyフラグで送信されてくる。この機能は、Context要素のuseHttpOnly属性によって制御することができる。</ns3:para>
-                    <ns3:para>（この機能は、Tomcat6.0の最新バージョンでは、デフォルトでオフとなっているため、有効にするには、Webアプリケーションあるいは$CATALINA_BASE/conf/web.xmlのContext要素のuseHttpOnly属性にtrueを設定すればよい。）</ns3:para>
+                    <ns3:para>Tomcat7のセッションおよびSSO Cookieは、JavaScriptからのアクセスを防ぐために、デフォルトでHttpOnlyフラグで送信されてくる。この機能は、Context要素のuseHttpOnly属性によって制御することができる（この機能は、Tomcat6.0の最新バージョンでは、デフォルトでオフとなっているため、有効にするには、Web アプリケーションあるいは$CATALINA_BASE/conf/context.xml のContext 要素のuseHttpOnly 属性にtrueを設定すればよい）。</ns3:para>
                 </ns3:section>
             </ns3:article>
         </DocBook>
@@ -3961,7 +4083,7 @@
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>Servlet仕様において、標準Request属性javax.servlet.request.ssl_session_idが新しく定義されたため、SSLセッションIDにアクセスするために提供されているカスタムRequest属性javax.servlet.request.ssl_sessionは廃止となった。</ns3:para>
-                    <ns3:para>このカスタム属性は、Tomcat8で削除される予定である。</ns3:para>
+                    <ns3:para>このカスタム属性は、Tomcat8で削除されている。</ns3:para>
                 </ns3:section>
             </ns3:article>
         </DocBook>
@@ -4071,7 +4193,8 @@
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>Servlet3.0仕様にて必要となるアノテーション・スキャンは、Webアプリケーションの起動時間に影響を与えるだけでなく、スキャンされるクラスをロードするために多くのメモリ容量が必要となる可能性がある。</ns3:para>
-                    <ns3:para>この問題に対する対処策はいくつか存在する。1つ目の推奨方法は、WebアプリケーションのWEB-INF/web.xmlにおいて次の手順を実施することにより、アノテーション・スキャンを必要としないアプリケーションをマークすることである。</ns3:para>
+                    <ns3:para>この問題に対する対処策はいくつか存在する。</ns3:para>
+                    <ns3:para>1つ目の推奨方法は、WebアプリケーションのWEB-INF/web.xmlにおいて次の手順を実施することにより、アノテーション・スキャンを必要としないアプリケーションをマークすることである。</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
                             <ns3:para>WebアプリケーションがServlet 3.0仕様を使用していることを示すために、web-app要素を更新する。内容はデフォルトのconf/web.xmlからversion、xsi:schemaLocation、xmlns、xmlns:xsi属性の値をコピーできる。</ns3:para>
@@ -4083,7 +4206,7 @@
                             <ns3:para>空の&lt;absolute-ordering /&gt;要素を追加する。</ns3:para>
                         </ns3:listitem>
                     </ns3:itemizedlist>
-                    <ns3:para>2つ目の推奨方法は、特定のJARファイルを無視するように、JarScannerコンポーネントを設定することである。通常、tomcat.util.scan.DefaultJarScanner.jarsToSkipシステムプロパティは、conf/catalina.propertiesファイルに設定する。</ns3:para>
+                    <ns3:para>2つ目の推奨方法は、特定のJARファイルを無視するように、JarScannerコンポーネントを設定することである。通常、<ns3:command ns2:href="http://tomcat.apache.org/tomcat-7.0-doc/config/systemprops.html#JAR_Scanning">tomcat.util.scan.DefaultJarScanner.jarsToSkipシステムプロパティ</ns3:command> は、conf/catalina.propertiesファイルに設定する。</ns3:para>
                 </ns3:section>
             </ns3:article>
         </DocBook>
@@ -4143,7 +4266,7 @@
                     <ns3:title>コネクタとスレッドプール</ns3:title>
                 </ns3:info>
                 <ns3:section>
-                    <ns3:para>今まで統一されていなかったコネクタの実装をリファクタリングにより統一された実装とた。また、独自のスレッドプールの実装からjava標準のExecutorベースのスレッドプールに変更された。</ns3:para>
+                    <ns3:para>今まで統一されていなかったコネクタの実装をリファクタリングにより統一された実装とした。また、独自のスレッドプールの実装からjava標準のExecutorベースのスレッドプールに変更された。</ns3:para>
                     <ns3:para>その結果、以下のような変更があり注意が必要である。</ns3:para>
                     <ns3:itemizedlist>
                         <ns3:listitem>
@@ -4323,6 +4446,67 @@
                 <ns3:section>
                     <ns3:para>Tomcat7.0.51 以降、Web アプリケーションクラスローダによるクラスローディングはSystem クラス
 ローダより優先されます。</ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_40">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>本ドキュメントについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>本マイグレーションガイドはTomcat間（6.0-7.0）のマイグレーション時に注意すべき項目について整理したものである。</ns3:para>
+                    <ns3:para>本内容はTomcatコミュニティのMigration Guideの情報を参考に作成している。</ns3:para>
+                    <ns3:para>
+            <ns3:command ns2:href="http://tomcat.apache.org/migration.html">http://tomcat.apache.org/migration.html</ns3:command>
+        </ns3:para>
+                    <ns3:para>
+            <ns3:command ns2:href="http://tomcat.apache.org/migration-7.html">http://tomcat.apache.org/migration-7.html</ns3:command>
+        </ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_41">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>Javaバージョンについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Apache Tomcatのあるメジャーバージョンから新しいバージョンのものへアップデートをするとき、システムにインストールされているJVMが必要なJavaバージョンをサポートしていることを確認する必要がある。</ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_42">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>設定ファイルについて</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Apache Tomcatのあるメジャーバージョンから他のバージョンへマイグレーション（例：Tomcat
+			6からTomcat 7）するとき、古いバージョンの設定ファイルをむやみにコピーすべきではありません。</ns3:para>
+                    <ns3:para>推奨されているアプローチはApache
+			Tomcatの新しいバージョンのデフォルト設定ファイルを必要に応じて修正する方法である。</ns3:para>
+                    <ns3:para/>
+                    <ns3:para>本ドキュメントでは対象外であるが、同じメジャーバージョン内であるマイナーバージョンから別のマイナーバージョンへマイグレーション（例；Tomcat 6.0.41からTomcat 6.0.43）するとき、設定ファイルは再利用することが可能である。</ns3:para>
+                    <ns3:para>しかし、デフォルト値が変更されていないか、また、新たな要素が追加されていないかを確認するべきである。</ns3:para>
+                    <ns3:para>確認結果に応じて設定ファイルを修正するべきである。</ns3:para>
+                </ns3:section>
+            </ns3:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_43">
+            <ns3:article>
+                <ns3:info>
+                    <ns3:title>非推奨API</ns3:title>
+                </ns3:info>
+                <ns3:section>
+                    <ns3:para>Tomcat7.0は、Servlet
+			3.0、JSP2.2およびEL2.2仕様をサポートしている。</ns3:para>
+                    <ns3:para>
+			<ns3:command ns2:href="http://tomcat.apache.org/whichversion.html">http://tomcat.apache.org/whichversion.html
+			</ns3:command>
+		</ns3:para>
+                    <ns3:para>これらの仕様で非推奨となったAPIを利用している場合は代替APIを利用するように変更する必要がある。
+		</ns3:para>
                 </ns3:section>
             </ns3:article>
         </DocBook>
