@@ -1,5 +1,1 @@
-user-knowledge
-==============
-
-This Repository's for knowledge from tubame-user
-‚Ù‚°‚Ù‚°
+This branch is for GitHub Pages.
